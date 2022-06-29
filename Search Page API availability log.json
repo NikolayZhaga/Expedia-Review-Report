@@ -1,0 +1,1436 @@
+REQUEST: {
+    "URL": "https:\/\/test.ean.com\/v3\/properties\/availability?checkin=2022-06-29&checkout=2022-06-30&property_id%5B0%5D=996182&currency=USD&language=en-US&country_code=US&occupancy%5B0%5D=1&sales_channel=website&sales_environment=hotel_only&rate_plan_count=10&rate_option=net_rates&includes=details&partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&property_id=996182&occupancy=1",
+    "method": "get",
+    "headers": {
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=dcbab5bf4e2afd47e691ecc78aecf8412312e8d633f2fc0bb38a3deb7ba3d6fd1d3455f1de7f102b0351e3880bce53dd3c85ce7a63a6d6d4328e94e046853f91,timestamp=1656503399",
+        "Accept": "application\/json",
+        "Accept-Encoding": "gzip, deflate",
+        "Customer-Ip": "5.5.5.5",
+        "Content-Type": "application\/json",
+        "user-agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko\/20100101 Firefox\/20.0"
+    }
+}
+RESPONSE: {
+    "headers": {},
+    "body": [
+        {
+            "property_id": "996182",
+            "rooms": [
+                {
+                    "id": "202413510",
+                    "room_name": "Standard Room, 2 Queen Beds, Non Smoking",
+                    "rates": [
+                        {
+                            "id": "212281632",
+                            "status": "available",
+                            "available_rooms": 2147483647,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApeVwEEAwJVAUwMB1UJTAwAU1EfDFFWARhRBVJVUwZQVlRUVAAVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVNTDwlSAwwOHAtUUFUdUFFVUx4EUVRcSAZVVlVeUwdRXVNaABJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCwhtVAUTV3kAW0YDcVYJSw8HVgNSUgZQVT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IEHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVQZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQ5TAwQMDlMBBw=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37340": {
+                                    "id": "37340",
+                                    "description": "2 Queen Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/202413510\/rates\/212281632?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SAVGoNWpREmRAVwAIFSBRURKTZwVoTxAVSUEHQAxAMkRRBwtzUFcbHxURXh5TGwJDZUxWUQgXFRtBF1RWRVoXTRYKVk9p1zJnUAauZGAHWE0NVdE1ZNliPMQ5Zb8xNvM2Z61nZ5dkOc9mEAIAVgYFAAQBSw0JV1ZMBVkPUxoPXAcESAYABggFCF0CB1cKVNA3fwoJBlceAFccAQ4wVAICUg9cDAgXUgcBUw8EV1UEatkyZ04H_z5zyQ=="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "QueenBed",
+                                            "size": "Queen",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "11.56",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "212281632",
+                            "status": "available",
+                            "available_rooms": 2147483647,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVEJBVJWU1YLFFQPBlMVVVkHBUwKA1NQH1ECBVYAUQZXAAQDUhJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OAQADCVtRWwMVCQQHVRkEB1MCSFJWBApJBgAHVwUIVVQMBwhbHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtUAGUIVBEFJQwNR1BxBVoeUgsDVgNVVwVSO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlQfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBD08HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlXCg9dBg4NDF8P"
+                                }
+                            },
+                            "bed_groups": {
+                                "37340": {
+                                    "id": "37340",
+                                    "description": "2 Queen Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/202413510\/rates\/212281632?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SAVGoNWpREmRAVwAIFSBRURKTZwVoTxAVSUEHQAxAMkRRBwtzUFcbHxURXh5TGwJDZUxWUQgXFRtBF1RWRVoXTRYKVk9p1zJnUAauZGAIU00JVtE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEAIAVgYFAAQBSw0JV1ZMBVkPUxoPXAcESAYABggFCF0CB1cKVNA3fwoJBlceAFccAQ4wVAICUg9cDAgXUgcBUw8EV1UEatkyZ04H0B2jNg=="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "QueenBed",
+                                            "size": "Queen",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "14.15",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "202413511",
+                    "room_name": "Standard Room, 2 Queen Beds, Smoking",
+                    "rates": [
+                        {
+                            "id": "212281642",
+                            "status": "available",
+                            "available_rooms": 2147483647,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVEJBVJWU1YLFFQPBlMVVVkHBUwKA1NQH1ECBVYAUQZXAAQDUhJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OAQADCVtRWwMVCQQHVRkEB1MCSFJWBApJBgAHVwUIVVQMBwhbHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4vcmoneCR5NxJVVQxQE1lNUQFsRAhcVgpWVQEKSwZQFAMAMQUHQQt1VloVAyIFXBYDUgNSVQNTV1FpFFBXEVdMEB1vAldVB19ta0UDVkRaAglVCgRWRwUNVAENCgtbUAcFUE8CBhUCXBBFVUFDCgQQa0ZCCl4MWQdvUAYEUFYAAQMARVsTQxRWW1odXmE3fUJXDlZVUgpAEFkHU1MDFFICH1UGFEdDR0NaWlVHaAtQWAYAR3VQVFZeRxEIDwhRAQABDVYMAw=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37340": {
+                                    "id": "37340",
+                                    "description": "2 Queen Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/202413511\/rates\/212281642?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SAVGoNWpREmRAVwAIFSBRURKTZwVoTxAVSUEHQAxAMkRRBwtzUFcbHxURXh5TGwJDZUxWUQgXFRtBF1RWRVoXTRYKVk9p1zJnUAauZGAIU00JVtE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEAIAVgYFAAQBSw0JV1ZMBVkPUxoPXAcESAYABggFCF0CB1cKVNA3fwoJBlceAFccAQ4wVAICUg9cDAgXUgcBUw8EV1UEatkyZ04H0B2jNg=="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "QueenBed",
+                                            "size": "Queen",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "14.15",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "212281642",
+                            "status": "available",
+                            "available_rooms": 2147483647,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApeVwEEAwJVAUwMB1UJTAwAU1EfDFFWARhRBVJVUwZQVlRUVAAVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVNTDwlSAwwOHAtUUFUdUFFVUx4EUVRcSAZVVlVeUwdRXVNaABJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fen02cy12LWAUVwdbBEpYQABXbxVYXlJZVwMKVBtWDxwLXGAHVR0HI1cJFVBxUAEaVgdSVQRWVFMHaBVbC0xWFhZJPlteBgcFbTBAUlVDD1BZAwlXVUAGWQcFCAwIXwUHUFAfAA4dVw8TRFJFEA8HRmlAF1cDXA5VZgtdW1AJAA0CVx4FRBRBUFcHGgkxaiASBVtTWg5aERAIUVEDC08EBEsFAhJFQkNGX1lQRT1dAQkGVRB7WVBWXxcQXwRWAwEACVYMAFUD"
+                                }
+                            },
+                            "bed_groups": {
+                                "37340": {
+                                    "id": "37340",
+                                    "description": "2 Queen Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/202413511\/rates\/212281642?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SAVGoNWpREmRAVwAIFSBRURKTZwVoTxAVSUEHQAxAMkRRBwtzUFcbHxURXh5TGwJDZUxWUQgXFRtBF1RWRVoXTRYKVk9p1zJnUAauZGAHWE0NVdE1ZNliPMQ5Zb8xNvM2Z61nZ5dkOc9mEAIAVgYFAAQBSw0JV1ZMBVkPUxoPXAcESAYABggFCF0CB1cKVNA3fwoJBlceAFccAQ4wVAICUg9cDAgXUgcBUw8EV1UEatkyZ04H_z5zyQ=="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "QueenBed",
+                                            "size": "Queen",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "11.56",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "229864428",
+                    "room_name": "Room, 2 Queen Beds, Accessible, Non Smoking",
+                    "rates": [
+                        {
+                            "id": "272404103",
+                            "status": "available",
+                            "available_rooms": 3,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVEJBVJWU1YLFFQPBlMVVVkHBUwKA1NQH1ECBVYAUQZXAAQDUhJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OAQADCVtRWwMVCQQHVRkEB1MCSFJWBApJBgAHVwUIVVQMBwhbHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4vcmoneCR5NxJVVQxQE1lNUQFsRAhcVgpWVQEKSwZQFAMAMQUHQQt1VloVAyIFXBYDUgNSVQNTV1FpFFBXEVdMEB1vAldVB19ta0UDVkRaAglVCgRWRwUNVAENCgtbUAcFUE8CBhUCXBBFVUFDCgQQa0ZCCl4MWQdvUAYEUFYAAQMARVsTQxRWW1odXmE3fUJXDlZVUgpAEFkHU1MDFFICH1UGFEdDR0NaWlVHaAtQWAYAR3VQVFZeRxEIDwhRAQABDVYMAw=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37340": {
+                                    "id": "37340",
+                                    "description": "2 Queen Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/229864428\/rates\/272404103?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SAVGoNWpREmRAVwAIFSBRURKTZwVoTxAVSUEHQAxAMkRRBwtzUFcbHxURXh5TGwJDZUxWUQgXFRtBF1RWRVoXTRYKVk9p1zJnUAauZGAIU00JVtE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEAIAVgYFAAQBSw0JV1ZMBVkPUxoPXAcESAYABggFCF0CB1cKVNA3fwoJBlceAFccAQ4wVAICUg9cDAgXUgcBUw8EV1UEatkyZ04H0B2jNg=="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "QueenBed",
+                                            "size": "Queen",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "14.15",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "272404103",
+                            "status": "available",
+                            "available_rooms": 3,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApeVwEEAwJVAUwMB1UJTAwAU1EfDFFWARhRBVJVUwZQVlRUVAAVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVNTDwlSAwwOHAtUUFUdUFFVUx4EUVRcSAZVVlVeUwdRXVNaABJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fen02cy12LWAUVwdbBEpYQABXbxVYXlJZVwMKVBtWDxwLXGAHVR0HI1cJFVBxUAEaVgdSVQRWVFMHaBVbC0xWFhZJPlteBgcFbTBAUlVDD1BZAwlXVUAGWQcFCAwIXwUHUFAfAA4dVw8TRFJFEA8HRmlAF1cDXA5VZgtdW1AJAA0CVx4FRBRBUFcHGgkxaiASBVtTWg5aERAIUVEDC08EBEsFAhJFQkNGX1lQRT1dAQkGVRB7WVBWXxcQXwRWAwEACVYMAFUD"
+                                }
+                            },
+                            "bed_groups": {
+                                "37340": {
+                                    "id": "37340",
+                                    "description": "2 Queen Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/229864428\/rates\/272404103?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SAVGoNWpREmRAVwAIFSBRURKTZwVoTxAVSUEHQAxAMkRRBwtzUFcbHxURXh5TGwJDZUxWUQgXFRtBF1RWRVoXTRYKVk9p1zJnUAauZGAHWE0NVdE1ZNliPMQ5Zb8xNvM2Z61nZ5dkOc9mEAIAVgYFAAQBSw0JV1ZMBVkPUxoPXAcESAYABggFCF0CB1cKVNA3fwoJBlceAFccAQ4wVAICUg9cDAgXUgcBUw8EV1UEatkyZ04H_z5zyQ=="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "QueenBed",
+                                            "size": "Queen",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "11.56",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "202413508",
+                    "room_name": "Standard Room, 1 King Bed, Smoking",
+                    "rates": [
+                        {
+                            "id": "212281612",
+                            "status": "available",
+                            "available_rooms": 5,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVEJBVJWU1YLFFQPBlMVVVkHBUwKA1NQH1ECBVYAUQZXAAQDUhJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OAQADCVtRWwMVCQQHVRkEB1MCSFJWBApJBgAHVwUIVVQMBwhbHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4vcmoneCR5NxJVVQxQE1lNUQFsRAhcVgpWVQEKSwZQFAMAMQUHQQt1VloVAyIFXBYDUgNSVQNTV1FpFFBXEVdMEB1vAldVB19ta0UDVkRaAglVCgRWRwUNVAENCgtbUAcFUE8CBhUCXBBFVUFDCgQQa0ZCCl4MWQdvUAYEUFYAAQMARVsTQxRWW1odXmE3fUJXDlZVUgpAEFkHU1MDFFICH1UGFEdDR0NaWlVHaAtQWAYAR3VQVFZeRxEIDwhRAQABDVYMAw=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37321": {
+                                    "id": "37321",
+                                    "description": "1 King Bed",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/202413508\/rates\/212281612?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZwpWS1QFgWI5izAwlTBisDY59DUyrGE1xjdkzDVCDgYAB1JUUAVODlYDBRkNXQJXHFhcVQEbXVUDVQJaDw0AU11T0TYsAlIHUxUJAkgBCTUAAg1QXAkNXxhRCgYOUgQDUgxu2GEyRlBPrrfV"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "14.15",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "212281612",
+                            "status": "available",
+                            "available_rooms": 5,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApeVwEEAwJVAUwMB1UJTAwAU1EfDFFWARhRBVJVUwZQVlRUVAAVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVNTDwlSAwwOHAtUUFUdUFFVUx4EUVRcSAZVVlVeUwdRXVNaABJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fen02cy12LWAUVwdbBEpYQABXbxVYXlJZVwMKVBtWDxwLXGAHVR0HI1cJFVBxUAEaVgdSVQRWVFMHaBVbC0xWFhZJPlteBgcFbTBAUlVDD1BZAwlXVUAGWQcFCAwIXwUHUFAfAA4dVw8TRFJFEA8HRmlAF1cDXA5VZgtdW1AJAA0CVx4FRBRBUFcHGgkxaiASBVtTWg5aERAIUVEDC08EBEsFAhJFQkNGX1lQRT1dAQkGVRB7WVBWXxcQXwRWAwEACVYMAFUD"
+                                }
+                            },
+                            "bed_groups": {
+                                "37321": {
+                                    "id": "37321",
+                                    "description": "1 King Bed",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/202413508\/rates\/212281612?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZwVdS1AGgWI5izAwlTBisDY69DUyrGE1xjdkzDVCDgYAB1JUUAVODlYDBRkNXQJXHFhcVQEbXVUDVQJaDw0AU11T0TYsAlIHUxUJAkgBCTUAAg1QXAkNXxhRCgYOUgQDUgxu2GEyRlBgjWcq"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "11.56",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "202413509",
+                    "room_name": "Standard Room, 1 King Bed, Non Smoking",
+                    "rates": [
+                        {
+                            "id": "212281622",
+                            "status": "available",
+                            "available_rooms": 8,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApeVwEEAwJVAUwMB1UJTAwAU1EfDFFWARhRBVJVUwZQVlRUVAAVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVNTDwlSAwwOHAtUUFUdUFFVUx4EUVRcSAZVVlVeUwdRXVNaABJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCwhtVAUTV3kAW0YDcVYJSw8HVgNSUgZQVT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IEHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVQZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQ5TAwQMDlMBBw=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37321": {
+                                    "id": "37321",
+                                    "description": "1 King Bed",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/202413509\/rates\/212281622?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZwVdS1AGgWI5izAwlTBisDY69DUyrGE1xjdkzDVCDgYAB1JUUAVODlYDBRkNXQJXHFhcVQEbXVUDVQJaDw0AU11T0TYsAlIHUxUJAkgBCTUAAg1QXAkNXxhRCgYOUgQDUgxu2GEyRlBgjWcq"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "11.56",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "212281622",
+                            "status": "available",
+                            "available_rooms": 8,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVEJBVJWU1YLFFQPBlMVVVkHBUwKA1NQH1ECBVYAUQZXAAQDUhJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OAQADCVtRWwMVCQQHVRkEB1MCSFJWBApJBgAHVwUIVVQMBwhbHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtUAGUIVBEFJQwNR1BxBVoeUgsDVgNVVwVSO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlQfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBD08HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlXCg9dBg4NDF8P"
+                                }
+                            },
+                            "bed_groups": {
+                                "37321": {
+                                    "id": "37321",
+                                    "description": "1 King Bed",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/202413509\/rates\/212281622?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZwpWS1QFgWI5izAwlTBisDY59DUyrGE1xjdkzDVCDgYAB1JUUAVODlYDBRkNXQJXHFhcVQEbXVUDVQJaDw0AU11T0TYsAlIHUxUJAkgBCTUAAg1QXAkNXxhRCgYOUgQDUgxu2GEyRlBPrrfV"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "14.15",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "229864427",
+                    "room_name": "Room, 1 King Bed, Accessible, Smoking",
+                    "rates": [
+                        {
+                            "id": "272404090",
+                            "status": "available",
+                            "available_rooms": 1,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVEJBVJWU1YLFFQPBlMVVVkHBUwKA1NQH1ECBVYAUQZXAAQDUhJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OAQADCVtRWwMVCQQHVRkEB1MCSFJWBApJBgAHVwUIVVQMBwhbHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4vcmoneCR5NxJVVQxQE1lNUQFsRAhcVgpWVQEKSwZQFAMAMQUHQQt1VloVAyIFXBYDUgNSVQNTV1FpFFBXEVdMEB1vAldVB19ta0UDVkRaAglVCgRWRwUNVAENCgtbUAcFUE8CBhUCXBBFVUFDCgQQa0ZCCl4MWQdvUAYEUFYAAQMARVsTQxRWW1odXmE3fUJXDlZVUgpAEFkHU1MDFFICH1UGFEdDR0NaWlVHaAtQWAYAR3VQVFZeRxEIDwhRAQABDVYMAw=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37321": {
+                                    "id": "37321",
+                                    "description": "1 King Bed",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/229864427\/rates\/272404090?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZwpWS1QFgWI5izAwlTBisDY59DUyrGE1xjdkzDVCDgYAB1JUUAVODlYDBRkNXQJXHFhcVQEbXVUDVQJaDw0AU11T0TYsAlIHUxUJAkgBCTUAAg1QXAkNXxhRCgYOUgQDUgxu2GEyRlBPrrfV"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "14.15",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.69",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "82.15",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "13.86",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "272404090",
+                            "status": "available",
+                            "available_rooms": 1,
+                            "refundable": true,
+                            "member_deal_available": false,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2109": {
+                                    "id": "2109",
+                                    "name": "Free self parking"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/996182\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVJWB1JXDgAEH18GAFcbAwsBBR0MU1ICSFFWUAZZCQ0AUAddVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApeVwEEAwJVAUwMB1UJTAwAU1EfDFFWARhRBVJVUwZQVlRUVAAVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVNTDwlSAwwOHAtUUFUdUFFVUx4EUVRcSAZVVlVeUwdRXVNaABJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fen02cy12LWAUVwdbBEpYQABXbxVYXlJZVwMKVBtWDxwLXGAHVR0HI1cJFVBxUAEaVgdSVQRWVFMHaBVbC0xWFhZJPlteBgcFbTBAUlVDD1BZAwlXVUAGWQcFCAwIXwUHUFAfAA4dVw8TRFJFEA8HRmlAF1cDXA5VZgtdW1AJAA0CVx4FRBRBUFcHGgkxaiASBVtTWg5aERAIUVEDC08EBEsFAhJFQkNGX1lQRT1dAQkGVRB7WVBWXxcQXwRWAwEACVYMAFUD"
+                                }
+                            },
+                            "bed_groups": {
+                                "37321": {
+                                    "id": "37321",
+                                    "description": "1 King Bed",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/996182\/rooms\/229864427\/rates\/272404090?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YPFAcNITJUAVQBGAlSTgdUc2dhNXdkHQMEB1RXUQcJFFcCBVcbBlVQBx4OBAUGGgYDUgdSBVJbBFAHAD5BB19TAFRUAVAVCFNSUhpVUAIOGQVSUgAfAlxRAwMBAVxdUVoLVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZwVdS1AGgWI5izAwlTBisDY69DUyrGE1xjdkzDVCDgYAB1JUUAVODlYDBRkNXQJXHFhcVQEbXVUDVQJaDw0AU11T0TYsAlIHUxUJAkgBCTUAAg1QXAkNXxhRCgYOUgQDUgxu2GEyRlBgjWcq"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-29T15:00:00.000-04:00",
+                                    "end": "2022-06-29T16:00:00.000-04:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "11.56",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "base_rate",
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "totals": {
+                                        "marketing_fee": {
+                                            "request_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "0.55",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "request_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "68.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "request_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "79.56",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "request_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            },
+                                            "billable_currency": {
+                                                "value": "10.99",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "links": {
+                "additional_rates": {
+                    "method": "GET",
+                    "href": "\/v3\/properties\/996182\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQkCAlILVwJXBElcAgsGHQIND1AVCQAGBRoEUVIIVVxZAVxRWV1ARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFAUVxMQRlpYVxc5RgdHRgheCGtaUA8HAVJSAAQEWxwBVFIAGAdYVQdPD1MDChUFAw4AUgJRWgxVUAEeQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMOAQUCVlcEXwFLAFIAVRlXUVRVGgcCAAwUBlBWBwcIU1IOWg4KQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMUFcIHhAHW1FAOVEKRFgQDggIVAwSXg0JFlJbPQ1cXEEWAlNbUUFWEAQGa0JZCF1YB1ICC08JUEsLAGEFUh1VcFIKEAolVg1KDlcDUQQGDFMBPkJTCg1FXBAJFAVZR1pCRUppUF9RUl9hNhJRAEZRVQgEDFFRFFoNVVVeUQgFAlQEARpRBU4KDUIRVUpGD1wUahVDWF8MXwZsX1BbBVQADgYHFlZGFkVdCAFNXGVgfUdUUBBTBEwIWwZtVw4CXFtQXlhWEwFcUAJaCUFHCQBRAgNPUgBPUAESIQ1UVlhKRlpfBVMBAQlVDA4GBw=="
+                },
+                "recommendations": {
+                    "method": "GET",
+                    "href": "\/v3\/properties\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQkCAlILVwJXBElcAgsGHQIND1AVCQAGBRoEUVIIVVxZAVxRWV1ARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFAUVxMQRlpYVxc5RgdHRgheCGtaUA8HAVJSAAQEWxwBVFIAGAdYVQdPD1MDChUFAw4AUgJRWgxVUAEeQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMOAQUCVlcEXwFLAFIAVRlXUVRVGgcCAAwUBlBWBwcIU1IOWg4KQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMU1IeSwIKUkdsA1oSW0MNDwsAXxZbCwoSB1toDQxeSR5XAFhQRlJDAQU9QF9dAAVXBVACFFIPS1QAbQQFRgsnBV8WBnhRWhpTClMDUQMDD1FvQgJcDxVUS18SUQlDXEBETmxVXFRQCjdnQ1FVEV9cDAQNAVBDUVEAU11cVlsKAFYEHgdXHlEBEhQARkxcBEs5RRdeUVAJVjxaUglQA10BAAQVU0BBFlJWBRsJNGN3HwxYQwldFVEPUj5RXAcNXFBZD1VAVgpRVgpeE0AOBgJTAhxSVBtRUxdGBwNUR1ZXUFI9RxZZSV0TQEBsXQIIAAAGUw0KF3ALUVdbF0dZWAdUUgdTXV0GWVA="
+                }
+            },
+            "score": 64
+        }
+    ],
+    "response": {
+        "code": 200,
+        "message": "OK"
+    },
+    "cookies": [],
+    "filename": null,
+    "http_response": {
+        "data": null,
+        "headers": null,
+        "status": null
+    }
+}
