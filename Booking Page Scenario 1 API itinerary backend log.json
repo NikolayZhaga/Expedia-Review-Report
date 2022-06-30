@@ -1,0 +1,235 @@
+REQUEST: {
+    "URL": "https:\/\/test.ean.com\/v3\/itineraries?token=QldfCGlcUA4FV1FWBQYDXQFDRwdWXBBLDwheZkFdBwUCVFUGV18HVhlTWlYMSwcGXwYYXAdRU0wFDQcABFQCVwwBDgAQXlVHVApVC0BrDlBnQ1BWWxYBD3w9YHNxcSceQBZfUFI-UAtZWgMEUAVUAFUVUENDVk0AbApXCwZRBVcLBwEKCBNADUNdORZNEVUOTRNYVQtMCFcPVA1tVhQMRUZQQEMJVgFBRQBfBU0OBh9YFQMhVhAPAkNfBxFYW1RmVVIHEQhXV18UVV5WCQNbFGxjREZXREEAUQlCBUJdAR4VEFsHAEhTCQZbCBdGBEUGZ0BBFFIOZzd1KHEkNHNAVgAQa0YCRlAQChJDE1EfAFQRWAUFVA8DDBFRDQYBXFEKDVcHUQYfAFoYUQkfRARBRA9UQWgUF1xeD1oDZlhdWAIGXQACVkVdVQ5SAEoJB1UJEVZAAhBBQFZWB0AFNzd0R1VQEAldTAoIUGtQDlUKXFQOXFZDUgoDAA4JF0MKUFIAAhUAXRsFBhVVAQU9XVINVg9RDVMWTRJQAlsMCQUFRUsOXhZDXFcDPEQFTQwJNWd3dyF0KCt7JkdTVQ1XWTlbV1lUUkFpXF5ZTj1QAFVYEgteUFlGUUIEX1YQXkIIDUgMA0JEVlEEQRFRWgM-R1dHE1oDCBdQR1ABHhNBX1cDHgdRU1NYFlZGF0NXCwdGPkNWShJQXgxnCFxcDVlUDVVUAgMYAFAFAE8AAgRVS1ZXBwZMVggEUAJVUVUFVAcEE0BcQEQLWAppUFxcUQhXUgQDAAEdBwUOVR5XBFcFSVBRBAZIVwEBBwMGA1ENWgJSQ0ERV0RdFkNKawpQWwRUUQBTD1BQElMGXFARVhJUAmtNDFgEDFMIVwUbCAEfVlM2BwBBAyQGWxEBcVANTwkNB1QDAFACAm1CBlxNCEIUQG5aClBTWW1nRAFVVDxUAEtXE10VFloJD1gBGXhRCl4TIAFUEh5TBwZnWwwIUV1UE0YFRlgND1tABCBDVCdDUAVDGxJXFQoCQAV0EQEFLwgMU3RVAR1XB0cCekcLVBVQQ1ARUQpDAicWBwsvCloDHFYGQwF1HFcHFRFUDRVYTRsRAFQTAXUEEgRyFgVxERFBFURYCFNKblxRCVZRFHoNVVVeSxNVDVcHCgJTAFQPB1U%3D&country_code=US",
+    "method": "post",
+    "headers": {
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=f2cc99472327a80095ef60dabd6cb542060af83851d659b13bfa59c32322fdb7073a1dc9a563e2d6c1fcb14103375206d080713ddfcae9adb2e95c3e4d8c879d,timestamp=1656577118",
+        "Accept": "application\/json",
+        "Accept-Encoding": "gzip, deflate",
+        "Customer-Ip": "5.5.5.5",
+        "Content-Type": "application\/json",
+        "user-agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko\/20100101 Firefox\/20.0"
+    }
+}
+RESPONSE: {
+    "headers": {},
+    "body": {
+        "itinerary_id": "7460347671551",
+        "links": {
+            "retrieve": {
+                "method": "GET",
+                "href": "\/v3\/itineraries\/7460347671551?token=QldfCGlcUA4FV1FWBQYDXQFDRwdWXBBLDwheZkFdBwUCVFUGV18HVhlTWlYMSwcGXwYYXAdRU0wFDQcABFQCVwwBDgAQXlVHVApVC0BrDlBnQ1BWWxYBD3w9YHNxcSceQBZfUFI-UAtZWgMEUAVUAFUVUENDVk0AbApXCwZRBVcLBwEKCBNADUNdORZNEVUOTRNYVQtMCFcPVA1tVhQMRUZQQEMJVgFBRQBfBU0OBh9YFQMhVhASAkhZBwtFRg4cBnVHACYTCwoRVUBeUQhBZlBURwcKFAAiEQYCJQBwUAcgW3ZJUlAHIE4MVXB2SHAmAHUVVwACDCdwVXBTUXNRHVdWEQYgFwdRRwdIC1FXEWoXVBNRA15VWUNbCg1HBQpBAyQSVHYXAlBcBR0LBkAAcUQDAQQBBAZeVQBWFAUNAQMbUAsNVE5RBFUHSF5XUwVSVVYAVAQGBBYKVhwKIUECU0xIEgcdClFDBHUWVAYnZGdHU1RABiZDUSZDUAVHAxtfVVZEOkJMRFYSVlNHB3cVVwomQBFEVg9cFCVYS1ERUQpDAyUWBwsMAGsUSwFZD0ZbHFcHQVd0BQBdSgcRACUTAAZUXl9aWl5SaAFbC0BVAkIdAwcQByVABXtAAgRSURBdXjtYUloEFlEKEVcgEQoAK1YOW0ADBRxXcEYBBFIHXg1VT29dUVhWQQUKQ1F1RAIBagxQRQodUwpEByIXBlQCVlFHVxYVEFAGEFJwQwNxEQBTXFgMB2lTRgMGR1ZwEAELcV4OWw1YXhMgUF1BURVGHApxSRAKCX8KWlEbVRcGXBZXUBdWJkACUw9RDVRrVxRRChELJRIBBiFdClkMCFBNeQEARlEQQRBQdk0UVAx1DFsEGlMdVw4TCgUXVyBHBQoIWQtSPAcXAlAQUnkcBlcWAlMUAXRBVwFbD0IfHAMLQAd3QQoGIApcXApeAhN3CEAcRwFURFdwFwEKF01ZFgFvEUpeFAtWWwY5VFtXAxFWABRRIENXAyMqRldURwV0R1AAQFdDEVdZa1BYAARHBgQVVnlAB1ByUA5VDwheEmVbEEwHXU1wWl0BRgZWHFZ3QwEEWgpAChBHGj5SVgZRF1QEFwd3EgEEZmMQBVARUnARU3UdAwdFXAsLVxxXAhMGeUMPckEEAVQORg1MRh0-V1dWBBxUB0ACdhxXAVIWBAZDASccBAJSQlBSO1RXAgcRUwIWCiAcA1AJUwtEB1MXBiVGAAdbRwgEUBARB1MUVXUWBgBQAgJTUAVQRgMGR1J1EAR9FgAmElFyH1UARlJWQA9bXmZWB1AeXVINU0FRA1cJAF1IN2FCFgpFEwBdXkNVFVgHFURKDVRWGQBcA1YOQEUHTAA7QE0TVwgwYyd_InVrIRMPVBVnF1ZCXUQPEREXUh4BURVeBwkDCFcBR1tRUQZYWQ8MAQdWVx4IXhtWCBdJBEZCCl1GPRNCXwVZCV1rCFBYVANfWVMHFF5dCVtdEFlWAFRCB0RbTREUUlpQHwkxYXVEDAcXWgcSCgsBPVRfAwxcVVQNVRBWXFZUDw4XQAsCVQpXGFIIFFILQANUWFxYXkIOVghYWRxQU1MJWA1YSFBZVENXAQBqCgUMClUAClcQRkRfUw4DAwAEERFcCkRECFhfbkVUQAxYYW0kfnJ0dCl2dUJUX1gCWDxVUQkDUUptDlcKTDpVUlgJQF5VV1gVVkJYW19GXkEOURkMVURGBFZWSxNQXwVnElcURwJXCRQCQlxRHxUUXAFRGAJZA1dYElEUQ0UND1MQPEJRERZYWl1mWlNfD1xQAAtWBA8eBlNWDBQEVVBcHFEHBwAdAgtSVwdSUFZVUwcFRxBdEEJdCl88UVAFAQZXUgECXw1IAwdQXEhQBFdWH1cGVlMcUwdcB1NXU1MNXARQHkdAChMHRUwdbwxTXgUDB1UAVg0NEgJWXgRDUkMBAWxMD1sDBAMJVwYbVA4ZUVNkAFsVVnkFWRFWIwFeT1QHAQIIVAgLUz4WAldEDBZKQTwFWFBWW2E3FFMHBTkBVBEFEQwWFl5YDF8AG3NZC1EedlZTF0cAUVJvBlcLUwtXTBBYEg9WVwgRVnpDBiQWBwsQGkQBHFYGQwB3HFcHLw1bBCNUXUcGAEMEcREEBUBfSVUQBVARVnURUwRzWFtSEVZXFwsmFQQHSRNZXhBfR05EAVEdByVTEQ92RAwiEw1SaEkXVg5aQ1lbVQVVRVUVQ0BDFFtRAxBrCFQOC1UfcgpdAlMSQAwPAlJTAQMGBVVS"
+            }
+        }
+    },
+    "response": {
+        "code": 201,
+        "message": "Created"
+    },
+    "cookies": [],
+    "filename": null,
+    "http_response": {
+        "data": null,
+        "headers": null,
+        "status": null
+    }
+}
+REQUEST: {
+    "URL": "https:\/\/test.ean.com\/v3\/itineraries\/7460347671551?token=QldfCGlcUA4FV1FWBQYDXQFDRwdWXBBLDwheZkFdBwUCVFUGV18HVhlTWlYMSwcGXwYYXAdRU0wFDQcABFQCVwwBDgAQXlVHVApVC0BrDlBnQ1BWWxYBD3w9YHNxcSceQBZfUFI-UAtZWgMEUAVUAFUVUENDVk0AbApXCwZRBVcLBwEKCBNADUNdORZNEVUOTRNYVQtMCFcPVA1tVhQMRUZQQEMJVgFBRQBfBU0OBh9YFQMhVhASAkhZBwtFRg4cBnVHACYTCwoRVUBeUQhBZlBURwcKFAAiEQYCJQBwUAcgW3ZJUlAHIE4MVXB2SHAmAHUVVwACDCdwVXBTUXNRHVdWEQYgFwdRRwdIC1FXEWoXVBNRA15VWUNbCg1HBQpBAyQSVHYXAlBcBR0LBkAAcUQDAQQBBAZeVQBWFAUNAQMbUAsNVE5RBFUHSF5XUwVSVVYAVAQGBBYKVhwKIUECU0xIEgcdClFDBHUWVAYnZGdHU1RABiZDUSZDUAVHAxtfVVZEOkJMRFYSVlNHB3cVVwomQBFEVg9cFCVYS1ERUQpDAyUWBwsMAGsUSwFZD0ZbHFcHQVd0BQBdSgcRACUTAAZUXl9aWl5SaAFbC0BVAkIdAwcQByVABXtAAgRSURBdXjtYUloEFlEKEVcgEQoAK1YOW0ADBRxXcEYBBFIHXg1VT29dUVhWQQUKQ1F1RAIBagxQRQodUwpEByIXBlQCVlFHVxYVEFAGEFJwQwNxEQBTXFgMB2lTRgMGR1ZwEAELcV4OWw1YXhMgUF1BURVGHApxSRAKCX8KWlEbVRcGXBZXUBdWJkACUw9RDVRrVxRRChELJRIBBiFdClkMCFBNeQEARlEQQRBQdk0UVAx1DFsEGlMdVw4TCgUXVyBHBQoIWQtSPAcXAlAQUnkcBlcWAlMUAXRBVwFbD0IfHAMLQAd3QQoGIApcXApeAhN3CEAcRwFURFdwFwEKF01ZFgFvEUpeFAtWWwY5VFtXAxFWABRRIENXAyMqRldURwV0R1AAQFdDEVdZa1BYAARHBgQVVnlAB1ByUA5VDwheEmVbEEwHXU1wWl0BRgZWHFZ3QwEEWgpAChBHGj5SVgZRF1QEFwd3EgEEZmMQBVARUnARU3UdAwdFXAsLVxxXAhMGeUMPckEEAVQORg1MRh0-V1dWBBxUB0ACdhxXAVIWBAZDASccBAJSQlBSO1RXAgcRUwIWCiAcA1AJUwtEB1MXBiVGAAdbRwgEUBARB1MUVXUWBgBQAgJTUAVQRgMGR1J1EAR9FgAmElFyH1UARlJWQA9bXmZWB1AeXVINU0FRA1cJAF1IN2FCFgpFEwBdXkNVFVgHFURKDVRWGQBcA1YOQEUHTAA7QE0TVwgwYyd_InVrIRMPVBVnF1ZCXUQPEREXUh4BURVeBwkDCFcBR1tRUQZYWQ8MAQdWVx4IXhtWCBdJBEZCCl1GPRNCXwVZCV1rCFBYVANfWVMHFF5dCVtdEFlWAFRCB0RbTREUUlpQHwkxYXVEDAcXWgcSCgsBPVRfAwxcVVQNVRBWXFZUDw4XQAsCVQpXGFIIFFILQANUWFxYXkIOVghYWRxQU1MJWA1YSFBZVENXAQBqCgUMClUAClcQRkRfUw4DAwAEERFcCkRECFhfbkVUQAxYYW0kfnJ0dCl2dUJUX1gCWDxVUQkDUUptDlcKTDpVUlgJQF5VV1gVVkJYW19GXkEOURkMVURGBFZWSxNQXwVnElcURwJXCRQCQlxRHxUUXAFRGAJZA1dYElEUQ0UND1MQPEJRERZYWl1mWlNfD1xQAAtWBA8eBlNWDBQEVVBcHFEHBwAdAgtSVwdSUFZVUwcFRxBdEEJdCl88UVAFAQZXUgECXw1IAwdQXEhQBFdWH1cGVlMcUwdcB1NXU1MNXARQHkdAChMHRUwdbwxTXgUDB1UAVg0NEgJWXgRDUkMBAWxMD1sDBAMJVwYbVA4ZUVNkAFsVVnkFWRFWIwFeT1QHAQIIVAgLUz4WAldEDBZKQTwFWFBWW2E3FFMHBTkBVBEFEQwWFl5YDF8AG3NZC1EedlZTF0cAUVJvBlcLUwtXTBBYEg9WVwgRVnpDBiQWBwsQGkQBHFYGQwB3HFcHLw1bBCNUXUcGAEMEcREEBUBfSVUQBVARVnURUwRzWFtSEVZXFwsmFQQHSRNZXhBfR05EAVEdByVTEQ92RAwiEw1SaEkXVg5aQ1lbVQVVRVUVQ0BDFFtRAxBrCFQOC1UfcgpdAlMSQAwPAlJTAQMGBVVS&country_code=US",
+    "method": "get",
+    "headers": {
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=05fd75f6c0b84b8c76c7b22035d1a491b492d9f380ef44d82a8ee47ce337152005d84ca7b6d5bc7b68dfb551de58465ebbd5023f42370f825f5b8c7355a490c9,timestamp=1656577120",
+        "Accept": "application\/json",
+        "Accept-Encoding": "gzip, deflate",
+        "Customer-Ip": "5.5.5.5",
+        "Content-Type": "application\/json",
+        "user-agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko\/20100101 Firefox\/20.0"
+    }
+}
+RESPONSE: {
+    "headers": {},
+    "body": {
+        "itinerary_id": "7460347671551",
+        "property_id": "11775754",
+        "rooms": [
+            {
+                "id": "230410389",
+                "bed_group_id": "37481",
+                "confirmation_id": {
+                    "expedia": "882400966517719"
+                },
+                "checkin": "2022-08-01",
+                "checkout": "2022-08-02",
+                "number_of_adults": 2,
+                "child_ages": [
+                    9,
+                    4
+                ],
+                "given_name": "John",
+                "family_name": "Smith",
+                "status": "booked",
+                "special_request": "Special requests",
+                "smoking": false,
+                "rate": {
+                    "id": "276321198",
+                    "merchant_of_record": "expedia",
+                    "refundable": true,
+                    "cancel_penalties": [
+                        {
+                            "currency": "USD",
+                            "percent": "10%",
+                            "start": "2022-07-30T10:00:00.000+00:51",
+                            "end": "2022-08-01T10:00:00.000+00:51"
+                        }
+                    ],
+                    "amenities": [
+                        "2192",
+                        "2204"
+                    ],
+                    "promotions": {
+                        "value_adds": {
+                            "218543": {
+                                "id": "218543",
+                                "description": "Free parking",
+                                "category": "entertainment",
+                                "offer_type": "free",
+                                "frequency": "per_stay"
+                            },
+                            "218542": {
+                                "id": "218542",
+                                "description": "Free upgrade",
+                                "category": "credit",
+                                "offer_type": "free",
+                                "frequency": "per_stay"
+                            },
+                            "218541": {
+                                "id": "218541",
+                                "description": "1 Free bottle of wine per stay",
+                                "offer_type": "free",
+                                "frequency": "per_stay"
+                            },
+                            "218540": {
+                                "id": "218540",
+                                "description": "1 Free show ticket for 2 per stay",
+                                "category": "entertainment",
+                                "offer_type": "free",
+                                "frequency": "per_stay",
+                                "person_count": 2
+                            },
+                            "218539": {
+                                "id": "218539",
+                                "description": "10 USD golf credit per person for 2 per stay",
+                                "category": "entertainment",
+                                "offer_type": "credit",
+                                "frequency": "per_stay",
+                                "person_count": 2
+                            }
+                        }
+                    },
+                    "pricing": {
+                        "nightly": [
+                            [
+                                {
+                                    "value": "0.28",
+                                    "type": "tax_and_service_fee",
+                                    "currency": "USD"
+                                },
+                                {
+                                    "value": "4.76",
+                                    "type": "base_rate",
+                                    "currency": "USD"
+                                },
+                                {
+                                    "value": "0.29",
+                                    "type": "extra_person_fee",
+                                    "currency": "USD"
+                                }
+                            ]
+                        ],
+                        "stay": [
+                            {
+                                "value": "0.10",
+                                "type": "property_fee",
+                                "currency": "USD"
+                            }
+                        ],
+                        "totals": {
+                            "inclusive": {
+                                "billable_currency": {
+                                    "value": "5.43",
+                                    "currency": "USD"
+                                }
+                            },
+                            "exclusive": {
+                                "billable_currency": {
+                                    "value": "5.05",
+                                    "currency": "USD"
+                                }
+                            },
+                            "property_fees": {
+                                "billable_currency": {
+                                    "value": "0.03",
+                                    "currency": "THB"
+                                }
+                            }
+                        },
+                        "fees": {
+                            "mandatory_fee": {
+                                "billable_currency": {
+                                    "value": "0.01",
+                                    "currency": "THB"
+                                }
+                            },
+                            "resort_fee": {
+                                "billable_currency": {
+                                    "value": "0.01",
+                                    "currency": "THB"
+                                }
+                            }
+                        }
+                    }
+                },
+                "links": {
+                    "cancel": {
+                        "method": "DELETE",
+                        "href": "\/v3\/itineraries\/7460347671551\/rooms\/055788e3-7f33-4622-9f66-6a2e5e91663c?token=QldfCGlcUA4FV1FWBQYDXQFDRwdWXBBLDwheZkFdBwUCVFUGV18HVhlTWlYMSwcGXwYYXAdRU0wFDQcABFQCVwwBDgAQXlVHVApVC0BrDlBnQ1BWWxYBD3w9YHNxcSceQBZfUFI-UAtZWgMEUAVUAFUVUENDVk0AbApXCwZRBVcLBwEKCBNADUNdORZNEVUOTRNYVQtMCFcPVA1tVhQMRUZQQEMJVgFBRQBfBU0OBh9YFQMhVhASAkhZBwtFRg4cBnVHACYTCwoRVUBeUQhBZlBURwcKFAAiEQYCJQBwUAcgW3ZJUlAHIE4MVXB2SHAmAHUVVwACDCdwVXBTUXNRHVdWEQYgFwdRRwdIC1FXEWoXVBNRA15VWUNbCg1HBQpBAyQSVHYXAlBcBR0LBkAAcUQDAQQBBAZeVQBWFAUNAQMbUAsNVE5RBFUHSF5XUwVSVVYAVAQGBBYKVhwKIUECU0xIEgcdClFDBHUWVAYnZGdHU1RABiZDUSZDUAVHAxtfVVZEOkJMRFYSVlNHB3cVVwomQBFEVg9cFCVYS1ERUQpDAyUWBwsMAGsUSwFZD0ZbHFcHQVd0BQBdSgcRACUTAAZUXl9aWl5SaAFbC0BVAkIdAwcQByVABXtAAgRSURBdXjtYUloEFlEKEVcgEQoAK1YOW0ADBRxXcEYBBFIHXg1VT29dUVhWQQUKQ1F1RAIBagxQRQodUwpEByIXBlQCVlFHVxYVEFAGEFJwQwNxEQBTXFgMB2lTRgMGR1ZwEAELcV4OWw1YXhMgUF1BURVGHApxSRAKCX8KWlEbVRcGXBZXUBdWJkACUw9RDVRrVxRRChELJRIBBiFdClkMCFBNeQEARlEQQRBQdk0UVAx1DFsEGlMdVw4TCgUXVyBHBQoIWQtSPAcXAlAQUnkcBlcWAlMUAXRBVwFbD0IfHAMLQAd3QQoGIApcXApeAhN3CEAcRwFURFdwFwEKF01ZFgFvEUpeFAtWWwY5VFtXAxFWABRRIENXAyMqRldURwV0R1AAQFdDEVdZa1BYAARHBgQVVnlAB1ByUA5VDwheEmVbEEwHXU1wWl0BRgZWHFZ3QwEEWgpAChBHGj5SVgZRF1QEFwd3EgEEZmMQBVARUnARU3UdAwdFXAsLVxxXAhMGeUMPckEEAVQORg1MRh0-V1dWBBxUB0ACdhxXAVIWBAZDASccBAJSQlBSO1RXAgcRUwIWCiAcA1AJUwtEB1MXBiVGAAdbRwgEUBARB1MUVXUWBgBQAgJTUAVQRgMGR1J1EAR9FgAmElFyH1UARlJWQA9bXmZWB1AeXVINU0FRA1cJAF1IN2FCFgpFEwBdXkNVFVgHFURKDVRWGQBcA1YOQEUHTAA7QE0TVwgwYyd_InVrIRMPVBVnF1ZCXUQPEREXUh4BURVeBwkDCFcBR1tRUQZYWQ8MAQdWVx4IXhtWCBdJBEZCCl1GPRNCXwVZCV1rCFBYVANfWVMHFF5dCVtdEFlWAFRCB0RbTREUUlpQHwkxYXVEDAcXWgcSCgsBPVRfAwxcVVQNVRBWXFZUDw4XQAsCVQpXGFIIFFILQANUWFxYXkIOVghYWRxQU1MJWA1YSFBZVENXAQBqCgUMClUAClcQRkRfUw4DAwAEERFcCkRECFhfbkVUQAxYYW0kfnJ0dCl2dUJUX1gCWDxVUQkDUUptDlcKTDpVUlgJQF5VV1gVVkJYW19GXkEOURkMVURGBFZWSxNQXwVnElcURwJXCRQCQlxRHxUUXAFRGAJZA1dYElEUQ0UND1MQPEJRERZYWl1mWlNfD1xQAAtWBA8eBlNWDBQEVVBcHFEHBwAdAgtSVwdSUFZVUwcFRxBdEEJdCl88UVAFAQZXUgECXw1IAwdQXEhQBFdWH1cGVlMcUwdcB1NXU1MNXARQHkdAChMHRUwdbwxTXgUDB1UAVg0NEgJWXgRDUkMBAWxMD1sDBAMJVwYbVA4ZUVNkAFsVVnkFWRFWIwFeT1QHAQIIVAgLUz4WAldEDBZKQTwFWFBWW2E3FFMHBTkBVBEFEQwWFl5YDF8AG3NZC1EedlZTF0cAUVJvBlcLUwtXTBBYEg9WVwgRVnpDBiQWBwsQGkQBHFYGQwB3HFcHLw1bBCNUXUcGAEMEcREEBUBfSVUQBVARVnURUwRzWFtSEVZXFwsmFQQHSRNZXhBfR05EAVEdByVTEQ92RAwiEw1SaEkXVg5aQ1lbVQVVRVUVQ0BDFFtRAxBrCFQOC1UfcgpdAlMSQAwPAlJTAQMGBVVS"
+                    },
+                    "change": {
+                        "method": "PUT",
+                        "href": "\/v3\/itineraries\/7460347671551\/rooms\/055788e3-7f33-4622-9f66-6a2e5e91663c?token=QldfCGlcUA4FV1FWBQYDXQFDRwdWXBBLDwheZkFdBwUCVFUGV18HVhlTWlYMSwcGXwYYXAdRU0wFDQcABFQCVwwBDgAQXlVHVApVC0BrDlBnQ1BWWxYBD3w9YHNxcSceQBZfUFI-UAtZWgMEUAVUAFUVUENDVk0AbApXCwZRBVcLBwEKCBNADUNdORZNEVUOTRNYVQtMCFcPVA1tVhQMRUZQQEMJVgFBRQBfBU0OBh9YFQMhVhASAkhZBwtFRg4cBnVHACYTCwoRVUBeUQhBZlBURwcKFAAiEQYCJQBwUAcgW3ZJUlAHIE4MVXB2SHAmAHUVVwACDCdwVXBTUXNRHVdWEQYgFwdRRwdIC1FXEWoXVBNRA15VWUNbCg1HBQpBAyQSVHYXAlBcBR0LBkAAcUQDAQQBBAZeVQBWFAUNAQMbUAsNVE5RBFUHSF5XUwVSVVYAVAQGBBYKVhwKIUECU0xIEgcdClFDBHUWVAYnZGdHU1RABiZDUSZDUAVHAxtfVVZEOkJMRFYSVlNHB3cVVwomQBFEVg9cFCVYS1ERUQpDAyUWBwsMAGsUSwFZD0ZbHFcHQVd0BQBdSgcRACUTAAZUXl9aWl5SaAFbC0BVAkIdAwcQByVABXtAAgRSURBdXjtYUloEFlEKEVcgEQoAK1YOW0ADBRxXcEYBBFIHXg1VT29dUVhWQQUKQ1F1RAIBagxQRQodUwpEByIXBlQCVlFHVxYVEFAGEFJwQwNxEQBTXFgMB2lTRgMGR1ZwEAELcV4OWw1YXhMgUF1BURVGHApxSRAKCX8KWlEbVRcGXBZXUBdWJkACUw9RDVRrVxRRChELJRIBBiFdClkMCFBNeQEARlEQQRBQdk0UVAx1DFsEGlMdVw4TCgUXVyBHBQoIWQtSPAcXAlAQUnkcBlcWAlMUAXRBVwFbD0IfHAMLQAd3QQoGIApcXApeAhN3CEAcRwFURFdwFwEKF01ZFgFvEUpeFAtWWwY5VFtXAxFWABRRIENXAyMqRldURwV0R1AAQFdDEVdZa1BYAARHBgQVVnlAB1ByUA5VDwheEmVbEEwHXU1wWl0BRgZWHFZ3QwEEWgpAChBHGj5SVgZRF1QEFwd3EgEEZmMQBVARUnARU3UdAwdFXAsLVxxXAhMGeUMPckEEAVQORg1MRh0-V1dWBBxUB0ACdhxXAVIWBAZDASccBAJSQlBSO1RXAgcRUwIWCiAcA1AJUwtEB1MXBiVGAAdbRwgEUBARB1MUVXUWBgBQAgJTUAVQRgMGR1J1EAR9FgAmElFyH1UARlJWQA9bXmZWB1AeXVINU0FRA1cJAF1IN2FCFgpFEwBdXkNVFVgHFURKDVRWGQBcA1YOQEUHTAA7QE0TVwgwYyd_InVrIRMPVBVnF1ZCXUQPEREXUh4BURVeBwkDCFcBR1tRUQZYWQ8MAQdWVx4IXhtWCBdJBEZCCl1GPRNCXwVZCV1rCFBYVANfWVMHFF5dCVtdEFlWAFRCB0RbTREUUlpQHwkxYXVEDAcXWgcSCgsBPVRfAwxcVVQNVRBWXFZUDw4XQAsCVQpXGFIIFFILQANUWFxYXkIOVghYWRxQU1MJWA1YSFBZVENXAQBqCgUMClUAClcQRkRfUw4DAwAEERFcCkRECFhfbkVUQAxYYW0kfnJ0dCl2dUJUX1gCWDxVUQkDUUptDlcKTDpVUlgJQF5VV1gVVkJYW19GXkEOURkMVURGBFZWSxNQXwVnElcURwJXCRQCQlxRHxUUXAFRGAJZA1dYElEUQ0UND1MQPEJRERZYWl1mWlNfD1xQAAtWBA8eBlNWDBQEVVBcHFEHBwAdAgtSVwdSUFZVUwcFRxBdEEJdCl88UVAFAQZXUgECXw1IAwdQXEhQBFdWH1cGVlMcUwdcB1NXU1MNXARQHkdAChMHRUwdbwxTXgUDB1UAVg0NEgJWXgRDUkMBAWxMD1sDBAMJVwYbVA4ZUVNkAFsVVnkFWRFWIwFeT1QHAQIIVAgLUz4WAldEDBZKQTwFWFBWW2E3FFMHBTkBVBEFEQwWFl5YDF8AG3NZC1EedlZTF0cAUVJvBlcLUwtXTBBYEg9WVwgRVnpDBiQWBwsQGkQBHFYGQwB3HFcHLw1bBCNUXUcGAEMEcREEBUBfSVUQBVARVnURUwRzWFtSEVZXFwsmFQQHSRNZXhBfR05EAVEdByVTEQ92RAwiEw1SaEkXVg5aQ1lbVQVVRVUVQ0BDFFtRAxBrCFQOC1UfcgpdAlMSQAwPAlJTAQMGBVVS"
+                    }
+                }
+            }
+        ],
+        "billing_contact": {
+            "given_name": "John",
+            "family_name": "Smith",
+            "address": {
+                "line_1": "Billing Address: &lpar;Line 1&rpar;",
+                "line_2": "Billing Address: &lpar;Line 2&rpar;",
+                "city": "Billing City",
+                "state_province_code": "AL",
+                "postal_code": "Billing Postal Code",
+                "country_code": "US"
+            }
+        },
+        "creation_date_time": "2022-06-30T08:18:39.884Z",
+        "affiliate_reference_id": "dev__85",
+        "email": "zhgnkl@gmail.com",
+        "phone": {
+            "country_code": "1",
+            "area_code": "123",
+            "number": "1231232"
+        }
+    },
+    "response": {
+        "code": 200,
+        "message": "OK"
+    },
+    "cookies": [],
+    "filename": null,
+    "http_response": {
+        "data": null,
+        "headers": null,
+        "status": null
+    }
+}
