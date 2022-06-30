@@ -1,0 +1,2239 @@
+REQUEST: {
+    "URL": "https:\/\/test.ean.com\/v3\/properties\/availability?checkin=2022-08-01&checkout=2022-08-02&property_id%5B0%5D=11775754&currency=USD&language=en-US&country_code=US&occupancy%5B0%5D=1&sales_channel=website&sales_environment=hotel_only&rate_plan_count=10&rate_option=net_rates&includes=details&partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&property_id=11775754&occupancy=1",
+    "method": "get",
+    "headers": {
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=667966e6af261977db158acf0e0a3020a710a47e984a63e4669decf88319b2f325d793558154e678baa953c5adc32ecefb4fcf53dfb2bf1d3eea76561c305bc6,timestamp=1656570861",
+        "Accept": "application\/json",
+        "Accept-Encoding": "gzip, deflate",
+        "Customer-Ip": "5.5.5.5",
+        "Content-Type": "application\/json",
+        "user-agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko\/20100101 Firefox\/20.0"
+    }
+}
+RESPONSE: {
+    "headers": {},
+    "body": [
+        {
+            "property_id": "11775754",
+            "rooms": [
+                {
+                    "id": "230410389",
+                    "room_name": "Honeymoon Room (#Test-Only#Partner:Connect)",
+                    "rates": [
+                        {
+                            "id": "276305850",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": false,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "1073742857": {
+                                    "id": "1073742857",
+                                    "name": "Breakfast for 1"
+                                },
+                                "1073742617": {
+                                    "id": "1073742617",
+                                    "name": "Disney park tickets"
+                                },
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoJXloBWFIAWEwPAVoBTAwCUQAfVQMFAxgBVwFRUFAEAVUDBAcVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCQNTXQxUVARbHFEABg0dUApVAB4EBwEGSFRSA1ELUAQBVAZWCBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQITV3kHVkYDcVEBSwsNVAZXWgFXVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IKHQgBQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVoZAlQQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAw1cAgENDFQNBA=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305850?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUFAeWFTYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFWDARXVwZQDksFAAYISAFVVQMVBwQEDxpUXVMBAg0GU1IFWwaAMnwHUQoLGVUFHVIBZwdSXwAMXARXFwIAUAYEXAoFVDmKMmFGVrzYrsU="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-28T23:34:21.377-07:00",
+                                    "end": "2022-08-01T02:00:00.000-07:00",
+                                    "amount": "25.00",
+                                    "currency": "THB"
+                                },
+                                {
+                                    "start": "2022-08-01T02:00:00.000-07:00",
+                                    "end": "2022-08-01T07:00:00.000-07:00",
+                                    "percent": "10%",
+                                    "currency": "THB"
+                                },
+                                {
+                                    "start": "2022-08-01T07:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "nights": "1",
+                                    "currency": "THB"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "152.58",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.34",
+                                                "currency": "THB"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "3.05",
+                                            "currency": "THB"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.47",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.77",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "167.67",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "155.97",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.43",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "152.58",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.33",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "deal": {
+                                    "id": "409103524",
+                                    "description": "Book early and save 9%"
+                                }
+                            }
+                        },
+                        {
+                            "id": "381383310",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": true,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoJXloBWFIAWEwPAVoBTAwCUQAfVQMFAxgBVwFRUFAEAVUDBAcVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCQNTXQxUVARbHFEABg0dUApVAB4EBwEGSFRSA1ELUAQBVAZWCBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQITV3kHVkYDcVEBSwsNVAZXWgFXVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IKHQgBQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVoZAlQQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAw1cAgENDFQNBA=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/381383310?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUFMeUFTYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFWDARXVwZQDksFAAYISAFVVQMVBwQEDxpUXVMBAg0GU1IFWwaAMnwHUQoLGVUFHVIBZwdSXwAMXARXFwIAUAYEXAoFVDmKMmFGVqaMujk="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-07-31T10:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "nights": "1",
+                                    "currency": "THB"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "152.77",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.34",
+                                                "currency": "THB"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "3.06",
+                                            "currency": "THB"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.47",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.77",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "167.88",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.77",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "156.17",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.44",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "152.77",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.34",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "deal": {
+                                    "id": "409103524",
+                                    "description": "Book early and save 9%"
+                                }
+                            }
+                        },
+                        {
+                            "id": "276358144",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": false,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQYAXlcNAwNSFFcJCVsVVVsFVExTUQBSHwFQVlIDB1IAAVNTVRJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OUQBRDF0GU1YVU1BRDRkEXFNRSFIAUVBJVAdSU1ALVgQFUgRTHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtVCWUJUxEFJQsAR1BxAlIeVgEBUwZdUAJQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlofAAkWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBAU8EAEBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUCghWCAAFAVcJ"
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276358144?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZRS1QCgWI5izAwlTBisDY59DUyrGE1xjdkzDVCCl1UAFFQAQxOAwADVxkNUVEDHAMLVwAbXg8CBlZXVVtTAl0F0TYsAlIHUxUJAkgAADUBBQ1XUQkKVxhVAAQLVwwEVQ5u2GEyRlDONitF"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-28T23:34:21.377-07:00",
+                                    "end": "2022-08-01T02:00:00.000-07:00",
+                                    "amount": "0.71",
+                                    "currency": "USD"
+                                },
+                                {
+                                    "start": "2022-08-01T02:00:00.000-07:00",
+                                    "end": "2022-08-01T07:00:00.000-07:00",
+                                    "percent": "10%",
+                                    "currency": "USD"
+                                },
+                                {
+                                    "start": "2022-08-01T07:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.26",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "0.10",
+                                            "currency": "USD"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.54",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.84",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.03",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "5.12",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "5.12",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0.1",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.1",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "276321198",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": true,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2204": {
+                                    "id": "2204",
+                                    "name": "Free ski lift ticket & rental"
+                                },
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoJXloBWFIAWEwPAVoBTAwCUQAfVQMFAxgBVwFRUFAEAVUDBAcVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCQNTXQxUVARbHFEABg0dUApVAB4EBwEGSFRSA1ELUAQBVAZWCBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQITV3kHVkYDcVEBSwsNVAZXWgFXVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IKHQgBQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVoZAlQQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAw1cAgENDFQNBA=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlQeUlTYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFWDARXVwZQDksFAAYISAFVVQMVBwQEDxpUXVMBAg0GU1IFWwaAMnwHUQoLGVUFHVIBZwdSXwAMXARXFwIAUAYEXAoFVDmKMmFGVup8I_Q="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-07-30T10:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "percent": "10%",
+                                    "currency": "THB"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "167.67",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.35",
+                                                "currency": "THB"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "3.35",
+                                            "currency": "THB"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.51",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.81",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "171.37",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.87",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "167.67",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "value_adds": {
+                                    "218543": {
+                                        "id": "218543",
+                                        "description": "Free parking",
+                                        "category": "entertainment",
+                                        "offer_type": "free",
+                                        "frequency": "per_stay"
+                                    },
+                                    "218542": {
+                                        "id": "218542",
+                                        "description": "Free upgrade",
+                                        "category": "credit",
+                                        "offer_type": "free",
+                                        "frequency": "per_stay"
+                                    },
+                                    "218539": {
+                                        "id": "218539",
+                                        "description": "10 USD golf credit per person for 2 per stay",
+                                        "category": "entertainment",
+                                        "offer_type": "credit",
+                                        "frequency": "per_stay",
+                                        "person_count": 2
+                                    },
+                                    "218541": {
+                                        "id": "218541",
+                                        "description": "1 Free bottle of wine per stay",
+                                        "category": "",
+                                        "offer_type": "free",
+                                        "frequency": "per_stay"
+                                    },
+                                    "218540": {
+                                        "id": "218540",
+                                        "description": "1 Free show ticket for 2 per stay",
+                                        "category": "entertainment",
+                                        "offer_type": "free",
+                                        "frequency": "per_stay",
+                                        "person_count": 2
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "276305850",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": false,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "1073742857": {
+                                    "id": "1073742857",
+                                    "name": "Breakfast for 1"
+                                },
+                                "1073742617": {
+                                    "id": "1073742617",
+                                    "name": "Disney park tickets"
+                                },
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQYAXlcNAwNSFFcJCVsVVVsFVExTUQBSHwFQVlIDB1IAAVNTVRJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OUQBRDF0GU1YVU1BRDRkEXFNRSFIAUVBJVAdSU1ALVgQFUgRTHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtVCWUJUxEFJQsAR1BxAlIeVgEBUwZdUAJQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlofAAkWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBAU8EAEBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUCghWCAAFAVcJ"
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305850?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1MGgWI5izAwlTBisDY59DUyrGE1xjdkzDVCCl1UAFFQAQxOAwADVxkNUVEDHAMLVwAbXg8CBlZXVVtTAl0F0TYsAlIHUxUJAkgAADUBBQ1XUQkKVxhVAAQLVwwEVQ5u2GEyRlCIBpEQ"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-28T23:34:21.377-07:00",
+                                    "end": "2022-08-01T02:00:00.000-07:00",
+                                    "amount": "0.71",
+                                    "currency": "USD"
+                                },
+                                {
+                                    "start": "2022-08-01T02:00:00.000-07:00",
+                                    "end": "2022-08-01T07:00:00.000-07:00",
+                                    "percent": "10%",
+                                    "currency": "USD"
+                                },
+                                {
+                                    "start": "2022-08-01T07:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "4.33",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.24",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "0.09",
+                                            "currency": "USD"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.49",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.79",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "4.66",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.66",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "4.33",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.33",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0.09",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.09",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "deal": {
+                                    "id": "409103524",
+                                    "description": "Book early and save 9%"
+                                }
+                            }
+                        },
+                        {
+                            "id": "276321197",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": true,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2236": {
+                                    "id": "2236",
+                                    "name": "Match play"
+                                },
+                                "1073743286": {
+                                    "id": "1073743286",
+                                    "name": "Free massage included"
+                                },
+                                "2235": {
+                                    "id": "2235",
+                                    "name": "Casino credit"
+                                },
+                                "2200": {
+                                    "id": "2200",
+                                    "name": "Spa Credit"
+                                },
+                                "1073743287": {
+                                    "id": "1073743287",
+                                    "name": "Free minibar"
+                                },
+                                "1073744752": {
+                                    "id": "1073744752",
+                                    "name": "Buffet dinner"
+                                },
+                                "1073742863": {
+                                    "id": "1073742863",
+                                    "name": "1 game drive per night"
+                                },
+                                "2194": {
+                                    "id": "2194",
+                                    "name": "Breakfast for 2"
+                                },
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoJXloBWFIAWEwPAVoBTAwCUQAfVQMFAxgBVwFRUFAEAVUDBAcVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCQNTXQxUVARbHFEABg0dUApVAB4EBwEGSFRSA1ELUAQBVAZWCBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQITV3kHVkYDcVEBSwsNVAZXWgFXVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IKHQgBQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVoZAlQQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAw1cAgENDFQNBA=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321197?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUFAeWFTYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFWDARXVwZQDksFAAYISAFVVQMVBwQEDxpUXVMBAg0GU1IFWwaAMnwHUQoLGVUFHVIBZwdSXwAMXARXFwIAUAYEXAoFVDmKMmFGVrzYrsU="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-07-29T10:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "amount": "76.00",
+                                    "currency": "THB"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "152.58",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.34",
+                                                "currency": "THB"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "3.05",
+                                            "currency": "THB"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.47",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.77",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "167.67",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "155.97",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.43",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "152.58",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.33",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "deal": {
+                                    "id": "409103524",
+                                    "description": "Book early and save 9%"
+                                }
+                            }
+                        },
+                        {
+                            "id": "276321198",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": true,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2204": {
+                                    "id": "2204",
+                                    "name": "Free ski lift ticket & rental"
+                                },
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQYAXlcNAwNSFFcJCVsVVVsFVExTUQBSHwFQVlIDB1IAAVNTVRJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OUQBRDF0GU1YVU1BRDRkEXFNRSFIAUVBJVAdSU1ALVgQFUgRTHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtVCWUJUxEFJQsAR1BxAlIeVgEBUwZdUAJQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlofAAkWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBAU8EAEBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUCghWCAAFAVcJ"
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZRS1QCgWI5izAwlTBisDY59DUyrGE1xjdkzDVCCl1UAFFQAQxOAwADVxkNUVEDHAMLVwAbXg8CBlZXVVtTAl0F0TYsAlIHUxUJAkgAADUBBQ1XUQkKVxhVAAQLVwwEVQ5u2GEyRlDONitF"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-07-30T10:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "percent": "10%",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.26",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "0.10",
+                                            "currency": "USD"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.54",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.84",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.03",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "5.12",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "5.12",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0.1",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.1",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "value_adds": {
+                                    "218543": {
+                                        "id": "218543",
+                                        "description": "Free parking",
+                                        "category": "entertainment",
+                                        "offer_type": "free",
+                                        "frequency": "per_stay"
+                                    },
+                                    "218542": {
+                                        "id": "218542",
+                                        "description": "Free upgrade",
+                                        "category": "credit",
+                                        "offer_type": "free",
+                                        "frequency": "per_stay"
+                                    },
+                                    "218539": {
+                                        "id": "218539",
+                                        "description": "10 USD golf credit per person for 2 per stay",
+                                        "category": "entertainment",
+                                        "offer_type": "credit",
+                                        "frequency": "per_stay",
+                                        "person_count": 2
+                                    },
+                                    "218541": {
+                                        "id": "218541",
+                                        "description": "1 Free bottle of wine per stay",
+                                        "category": "",
+                                        "offer_type": "free",
+                                        "frequency": "per_stay"
+                                    },
+                                    "218540": {
+                                        "id": "218540",
+                                        "description": "1 Free show ticket for 2 per stay",
+                                        "category": "entertainment",
+                                        "offer_type": "free",
+                                        "frequency": "per_stay",
+                                        "person_count": 2
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "276305853",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": true,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoJXloBWFIAWEwPAVoBTAwCUQAfVQMFAxgBVwFRUFAEAVUDBAcVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCQNTXQxUVARbHFEABg0dUApVAB4EBwEGSFRSA1ELUAQBVAZWCBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQITV3kHVkYDcVEBSwsNVAZXWgFXVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IKHQgBQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVoZAlQQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAw1cAgENDFQNBA=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305853?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlQeUlTYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFWDARXVwZQDksFAAYISAFVVQMVBwQEDxpUXVMBAg0GU1IFWwaAMnwHUQoLGVUFHVIBZwdSXwAMXARXFwIAUAYEXAoFVDmKMmFGVup8I_Q="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-07-31T10:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "nights": "1",
+                                    "currency": "THB"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "167.67",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.35",
+                                                "currency": "THB"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "3.35",
+                                            "currency": "THB"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.51",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.81",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "171.37",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.87",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "167.67",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "deposits": [
+                                {
+                                    "value": "8.57",
+                                    "due": "2022-07-07",
+                                    "currency": "THB"
+                                },
+                                {
+                                    "value": "162.80",
+                                    "due": "2022-07-17",
+                                    "currency": "THB"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "381383310",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": true,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQYAXlcNAwNSFFcJCVsVVVsFVExTUQBSHwFQVlIDB1IAAVNTVRJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OUQBRDF0GU1YVU1BRDRkEXFNRSFIAUVBJVAdSU1ALVgQFUgRTHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtVCWUJUxEFJQsAR1BxAlIeVgEBUwZdUAJQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlofAAkWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBAU8EAEBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUCghWCAAFAVcJ"
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/381383310?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1MHgWI5izAwlTBisDY59DUyrGE1xjdkzDVCCl1UAFFQAQxOAwADVxkNUVEDHAMLVwAbXg8CBlZXVVtTAl0F0TYsAlIHUxUJAkgAADUBBQ1XUQkKVxhVAAQLVwwEVQ5u2GEyRlB9Y5DS"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-07-31T10:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "nights": "1",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "4.34",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.24",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "0.09",
+                                            "currency": "USD"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.49",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.79",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "4.77",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.77",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "4.67",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.67",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "4.34",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.34",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0.09",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.09",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "deal": {
+                                    "id": "409103524",
+                                    "description": "Book early and save 9%"
+                                }
+                            }
+                        },
+                        {
+                            "id": "276358144",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": false,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoJXloBWFIAWEwPAVoBTAwCUQAfVQMFAxgBVwFRUFAEAVUDBAcVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCQNTXQxUVARbHFEABg0dUApVAB4EBwEGSFRSA1ELUAQBVAZWCBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQITV3kHVkYDcVEBSwsNVAZXWgFXVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IKHQgBQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVoZAlQQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAw1cAgENDFQNBA=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276358144?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlQeUlTYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFWDARXVwZQDksFAAYISAFVVQMVBwQEDxpUXVMBAg0GU1IFWwaAMnwHUQoLGVUFHVIBZwdSXwAMXARXFwIAUAYEXAoFVDmKMmFGVup8I_Q="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-28T23:34:21.377-07:00",
+                                    "end": "2022-08-01T02:00:00.000-07:00",
+                                    "amount": "25.00",
+                                    "currency": "THB"
+                                },
+                                {
+                                    "start": "2022-08-01T02:00:00.000-07:00",
+                                    "end": "2022-08-01T07:00:00.000-07:00",
+                                    "percent": "10%",
+                                    "currency": "THB"
+                                },
+                                {
+                                    "start": "2022-08-01T07:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "nights": "1",
+                                    "currency": "THB"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "167.67",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.35",
+                                                "currency": "THB"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "3.35",
+                                            "currency": "THB"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.51",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.81",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "171.37",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.87",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "167.67",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": "276321197",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": true,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "expedia",
+                            "amenities": {
+                                "2236": {
+                                    "id": "2236",
+                                    "name": "Match play"
+                                },
+                                "1073743286": {
+                                    "id": "1073743286",
+                                    "name": "Free massage included"
+                                },
+                                "2235": {
+                                    "id": "2235",
+                                    "name": "Casino credit"
+                                },
+                                "2200": {
+                                    "id": "2200",
+                                    "name": "Spa Credit"
+                                },
+                                "1073743287": {
+                                    "id": "1073743287",
+                                    "name": "Free minibar"
+                                },
+                                "1073744752": {
+                                    "id": "1073744752",
+                                    "name": "Buffet dinner"
+                                },
+                                "1073742863": {
+                                    "id": "1073742863",
+                                    "name": "1 game drive per night"
+                                },
+                                "2194": {
+                                    "id": "2194",
+                                    "name": "Breakfast for 2"
+                                },
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQYAXlcNAwNSFFcJCVsVVVsFVExTUQBSHwFQVlIDB1IAAVNTVRJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OUQBRDF0GU1YVU1BRDRkEXFNRSFIAUVBJVAdSU1ALVgQFUgRTHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtVCWUJUxEFJQsAR1BxAlIeVgEBUwZdUAJQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlofAAkWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBAU8EAEBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUCghWCAAFAVcJ"
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321197?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1MGgWI5izAwlTBisDY59DUyrGE1xjdkzDVCCl1UAFFQAQxOAwADVxkNUVEDHAMLVwAbXg8CBlZXVVtTAl0F0TYsAlIHUxUJAkgAADUBBQ1XUQkKVxhVAAQLVwwEVQ5u2GEyRlCIBpEQ"
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-07-29T10:00:00.000-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "amount": "2.15",
+                                    "currency": "USD"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "4.33",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.24",
+                                                "currency": "USD"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "0.09",
+                                            "currency": "USD"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.49",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.79",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.76",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "4.66",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.66",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "4.33",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.33",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0.09",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.09",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "deal": {
+                                    "id": "409103524",
+                                    "description": "Book early and save 9%"
+                                }
+                            }
+                        },
+                        {
+                            "id": "276305852",
+                            "status": "available",
+                            "available_rooms": 2300,
+                            "refundable": false,
+                            "member_deal_available": true,
+                            "sale_scenario": {
+                                "package": false,
+                                "member": false,
+                                "corporate": false,
+                                "distribution": false
+                            },
+                            "merchant_of_record": "property",
+                            "amenities": {
+                                "1073742857": {
+                                    "id": "1073742857",
+                                    "name": "Breakfast for 1"
+                                },
+                                "1073742858": {
+                                    "id": "1073742858",
+                                    "name": "Complimentary green fees"
+                                },
+                                "1073742617": {
+                                    "id": "1073742617",
+                                    "name": "Disney park tickets"
+                                },
+                                "2202": {
+                                    "id": "2202",
+                                    "name": "VIP line access to nightclub(s)"
+                                },
+                                "2199": {
+                                    "id": "2199",
+                                    "name": "Welcome gift upon arrival"
+                                },
+                                "2193": {
+                                    "id": "2193",
+                                    "name": "Continental breakfast for 2"
+                                },
+                                "2192": {
+                                    "id": "2192",
+                                    "name": "Free WiFi"
+                                }
+                            },
+                            "links": {
+                                "payment_options": {
+                                    "method": "GET",
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVYNU1VUClENH1JQAAUbAwdSUR1XBFADSFIMUVUNBFdWA1ZdAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoJXloBWFIAWEwPAVoBTAwCUQAfVQMFAxgBVwFRUFAEAVUDBAcVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCQNTXQxUVARbHFEABg0dUApVAB4EBwEGSFRSA1ELUAQBVAZWCBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQITV3kHVkYDcVEBSwsNVAZXWgFXVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IKHQgBQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVoZAlQQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAw1cAgENDFQNBA=="
+                                }
+                            },
+                            "bed_groups": {
+                                "37481": {
+                                    "id": "37481",
+                                    "description": "2 King Beds",
+                                    "links": {
+                                        "price_check": {
+                                            "method": "GET",
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305852?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YBFAUFITJUAVQBGAlcTgRWc2dhNXdkHVQNXFEMAVJQFFQECl8bBldSVh5XVlYEGlZRAQNRUwYMBQdXBz5BV18BBVIDCQUVUgcEChpVCwJdGQUEB1ofUFsEB1YCAgxUBFYDVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVVlIeU1fYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFWDARXVwZQDksFAAYISAFVVQMVBwQEDxpUXVMBAg0GU1IFWwaAMnwHUQoLGVUFHVIBZwdSXwAMXARXFwIAUAYEXAoFVDmKMmFGVnjC724="
+                                        }
+                                    },
+                                    "configuration": [
+                                        {
+                                            "type": "KingBed",
+                                            "size": "King",
+                                            "quantity": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            "cancel_penalties": [
+                                {
+                                    "start": "2022-06-28T23:34:21.377-07:00",
+                                    "end": "2022-08-01T10:00:00.000-07:00",
+                                    "percent": "100%",
+                                    "currency": "THB"
+                                }
+                            ],
+                            "occupancy_pricing": {
+                                "1": {
+                                    "nightly": [
+                                        [
+                                            {
+                                                "type": "base_rate",
+                                                "value": "134.27",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.28",
+                                                "currency": "THB"
+                                            }
+                                        ]
+                                    ],
+                                    "stay": [
+                                        {
+                                            "type": "tax_and_service_fee",
+                                            "value": "2.69",
+                                            "currency": "THB"
+                                        }
+                                    ],
+                                    "fees": {
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.41",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "resort_fee": {
+                                            "billable_currency": {
+                                                "value": "0.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    },
+                                    "totals": {
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.71",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "147.55",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.19",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "137.24",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "3.90",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "134.27",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "3.81",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "0",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "promotions": {
+                                "deal": {
+                                    "id": "409103524",
+                                    "description": "Book early and save 9%"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "links": {
+                "additional_rates": {
+                    "method": "GET",
+                    "href": "\/v3\/properties\/11775754\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQkGWQYMVAYGDUlRVAtUHQIBXAQVUlcEBBoHC1NbAVEDVw8AWQtARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFAUVxMQRlpYVxc5RgdHRgheCGtaUA9QCAlXW1RRAhwCUl0IGAdaV1ZPVgFQCBVVUV0EUVQFDQ0CAAYeQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMOUQVQU1FTV1RLWgZWDRlXClQGGgdUVVYUVFcDA1ILUAIHDwICQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMUFcIHhAHW1FAOVEKRFgQDggIVAwSXg0JFlJbPQ1cXEEWAlNbUUFWEAQGa0JZCF1YB1ICC08JUEsKCWEEVR1VcFUHEAolUQVKCl0BVAEOC1QDPkJTCg1FXBAJFAVZR1pCRUppUF9RUl9hNhJRAEZRVQgEDFFRFFoNVVVeUQgFAlQEARpRC04IBUIRVUpGD1wUahVDWF8MXwZsX1BbBVQADgYHFlZGFkVdCAFNXGVgfUdUUBBTBEwIWwZtVw4CXFtQXlhWEwFcUAJaCUFHCQBRAgNPUg5PUwMSIQ1UVlhKRlpfBVAPAAlVDAgGAw=="
+                },
+                "recommendations": {
+                    "method": "GET",
+                    "href": "\/v3\/properties\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQkGWQYMVAYGDUlRVAtUHQIBXAQVUlcEBBoHC1NbAVEDVw8AWQtARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFAUVxMQRlpYVxc5RgdHRgheCGtaUA9QCAlXW1RRAhwCUl0IGAdaV1ZPVgFQCBVVUV0EUVQFDQ0CAAYeQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMOUQVQU1FTV1RLWgZWDRlXClQGGgdUVVYUVFcDA1ILUAIHDwICQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMU1IeSwIKUkdsA1oSW0MNDwsAXxZbCwoSB1toDQxeSR5XAFhQRlJDAQU9QF9dAAVXBVACFFIPS1UJbQUCRgsnAlIWBnhWUhpXAFEGVAsECFNvQgJcDxVUS18SUQlDXEBETmxVXFRQCjdnQ1FVEV9cDAQNAVBDUVEAU11cVlsKAFYEHgdZHlMJEhQARkxcBEs5RRdeUVAJVjxaUglQA10BAAQVU0BBFlJWBRsJNGN3HwxYQwldFVEPUj5RXAcNXFBZD1VAVgpRVgpeE0AOBgJTAhxSWhtSURdGBwNUR1ZXUFI9RxZZSV0TQEBsXQIICAgHVQAPBAdFd1xVB1lHEF5YUQdRV1EBVFIIUA=="
+                }
+            }
+        }
+    ],
+    "response": {
+        "code": 200,
+        "message": "OK"
+    },
+    "cookies": [],
+    "filename": null,
+    "http_response": {
+        "data": null,
+        "headers": null,
+        "status": null
+    }
+}
