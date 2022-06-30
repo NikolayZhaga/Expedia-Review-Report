@@ -1,0 +1,149 @@
+REQUEST: {
+    "URL": "https:\/\/test.ean.com\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F%7EOj46Zz8xJDEtZWBIMVNeSG02B2BlalgzVFYLCxgEWxVWACQ5BwlWURlUAUkEVHk1bDZxNkBUW1dQCVVWA0tSBFBQGgcHVQgYVQBSBhlWWQMKAAMAUFxWUFs_FFMMC1NaA1JVHgECCgIVAF1ZARULV11VGFQDBQEGAQcEBQNVUAY_AAAKCAMHFjMNVlIFGzQCAVQNu2M5UapgMFIFAF5SqDQ-AEUtXAxTFSNUAkeRNR06SxMWG0YHQQsWKQxfUnFcVxVOFRdfQ11DDht4XQhSGxUSE0BZX0cKQE0SXgBJOIFkYABQr2Q0VE0MUNE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEAVUUFBVAVcFSwEPAFdMBVMMABpUAVYBSABVDg9XBVEBAFdTBtA3fwoJBlceAFccAAcwVQQCUw5cCQgXVwAAVQoHU1YCatkyZ04H9ycvBw%3D%3D&country_code=US",
+    "method": "get",
+    "headers": {
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=cdfe00be5cf191f75709e9cb065d342cd7dc0a7be2a08b46435bea695de91a0c62436df680894095a9856131a6a14efb5b3793f65d0588cfc50b0eca62ed1ceb,timestamp=1656575935",
+        "Accept": "application\/json",
+        "Accept-Encoding": "gzip, deflate",
+        "Customer-Ip": "5.5.5.5",
+        "Content-Type": "application\/json",
+        "user-agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko\/20100101 Firefox\/20.0"
+    }
+}
+RESPONSE: {
+    "headers": {},
+    "body": {
+        "status": "available",
+        "occupancy_pricing": {
+            "2-9,4": {
+                "nightly": [
+                    [
+                        {
+                            "type": "base_rate",
+                            "value": "4.76",
+                            "currency": "USD"
+                        },
+                        {
+                            "type": "tax_and_service_fee",
+                            "value": "0.28",
+                            "currency": "USD"
+                        },
+                        {
+                            "type": "extra_person_fee",
+                            "value": "0.29",
+                            "currency": "USD"
+                        }
+                    ]
+                ],
+                "stay": [
+                    {
+                        "type": "tax_and_service_fee",
+                        "value": "0.10",
+                        "currency": "USD"
+                    }
+                ],
+                "fees": {
+                    "resort_fee": {
+                        "request_currency": {
+                            "value": "0.00",
+                            "currency": "USD"
+                        },
+                        "billable_currency": {
+                            "value": "0.35",
+                            "currency": "THB"
+                        }
+                    },
+                    "mandatory_fee": {
+                        "request_currency": {
+                            "value": "0.00",
+                            "currency": "USD"
+                        },
+                        "billable_currency": {
+                            "value": "0.70",
+                            "currency": "THB"
+                        }
+                    }
+                },
+                "totals": {
+                    "property_fees": {
+                        "request_currency": {
+                            "value": "0.00",
+                            "currency": "USD"
+                        },
+                        "billable_currency": {
+                            "value": "1.05",
+                            "currency": "THB"
+                        }
+                    },
+                    "minimum_selling_price": {
+                        "request_currency": {
+                            "value": "5.43",
+                            "currency": "USD"
+                        },
+                        "billable_currency": {
+                            "value": "5.43",
+                            "currency": "USD"
+                        }
+                    },
+                    "exclusive": {
+                        "request_currency": {
+                            "value": "5.05",
+                            "currency": "USD"
+                        },
+                        "billable_currency": {
+                            "value": "5.05",
+                            "currency": "USD"
+                        }
+                    },
+                    "gross_profit": {
+                        "request_currency": {
+                            "value": "0.1",
+                            "currency": "USD"
+                        },
+                        "billable_currency": {
+                            "value": "0.1",
+                            "currency": "USD"
+                        }
+                    },
+                    "inclusive": {
+                        "request_currency": {
+                            "value": "5.43",
+                            "currency": "USD"
+                        },
+                        "billable_currency": {
+                            "value": "5.43",
+                            "currency": "USD"
+                        }
+                    },
+                    "marketing_fee": {
+                        "request_currency": {
+                            "value": "0",
+                            "currency": "USD"
+                        },
+                        "billable_currency": {
+                            "value": "0",
+                            "currency": "USD"
+                        }
+                    }
+                }
+            }
+        },
+        "links": {
+            "book": {
+                "method": "POST",
+                "href": "\/v3\/itineraries?token=QldfCGlcUA4FV1FWBQYDXQFDRwdWXBBLDwheZkFdBwUFAlBQVAlTBRkCWFwFSwdXW1MYXVdQUUwCAQEFCl9XAlAFVVYQXlVHVApVC0BrDlBnQ1BWWxYBD3w9YHNxcSceQBZfUFI-UAtZWgMEUAVUAFUVUENDVk0AbApXCwZRBVcLBwEKCBNADUNdORZNEVUOTRNYVQtMCFcPVA1tVhQMRUZQQEMJVgFBRQBfBU0OBh9YFQMhVhAPAkNfBxFYW1RmVVIHEQhXV18UVV5WCQNbFGxjREZXREEAUQlCBUJdAR4VEFsHAEhTCQZbCBdGBEUGZ0BBFFIOZzd1KHEkNHNAVgAQa0YCRlAQChJDE1EfAFQRWAUFVA8DDBFRDQYBXFEKDVcHUQYfAFoYUQkfRARBRA9UQWgUF1xeD1oDZlhdWAIGXQACVkVdVQ5SAEoJB1UJEVZAAhBBQFZWB0AFNzd0R1VQEAldTAoIUGtQDlUKXFQOXFZDUgoDAA4JF0MKUFIAAhUAXRsFBhVVAQU9XVINVg9RDVMWTRJQAlsMCQUFRUsOXhZDXFcDPEQFTQwJNWd3dyF0KCt7JkdTVQ1XWTlbV1lUUkFpXF5ZTj1QAFVYEgteUFlGUUIEX1YQXkIIDUgMA0JEVlEEQRFRWgM-R1dHE1oDCBdQR1ABHhNBX1cDHgdRU1NYFlZGF0NXCwdGPkNWShJQXgxnCFxcVFkEVVZUUAQYVlMCU08ABAcJS1ZRUlFMUglXUAdUVlUMUQdTE0BcQEQLWAppUFxcUQAAAQQGD1odVFYBUB5XDQwFSQsCAQBIUwBWXQYCBVQLVAJXQ0ERV0RdFkNKawpQWwRUUQBTD1BQElMGXFARVhJUAmtNDFgEDFMIVwUbCAEfVlM2Bw9BAyQCWxEBcVcDTwkBA1QCBFEGAG1CBlxNCEIUQG5aClBTWW1nRAFVVDxUAEtXE10VFloJD1gBGXhRCl4TIAFUEh5TBwZnWwwIUV1UE0YFRlgND1tABCBDVCdDUAVDGxJXFQoCQAV0EQEFLwgMU3RVAR1XB0cCekcLVBVQQ1ARUQpDAicWBwsvCloDHFYGQwF1HFcHFRFUDRVYTRsRAFQTAXUEEgRyFgVxERFBFURYCFNKblxRCVZRFHoNVVVeSxNVDVAHBAdWClIADFc="
+            }
+        }
+    },
+    "response": {
+        "code": 200,
+        "message": "OK"
+    },
+    "cookies": [],
+    "filename": null,
+    "http_response": {
+        "data": null,
+        "headers": null,
+        "status": null
+    }
+}
