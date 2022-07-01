@@ -1,8 +1,8 @@
 REQUEST: {
-    "URL": "https:\/\/test.ean.com\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F%7EOj46Zz8xJDEtZWBIMVNeSG02B2BlalgzVFYLCxgEWxVWACQ5BwlWURlUAUkEVHk1bDZxNkBUW1dQCVVWA0tSBFBQGgcHVQgYVQBSBhlWWQMKAAMAUFxWUFs_FFMMC1NaA1JVHgECCgIVAF1ZARULV11VGFQDBQEGAQcEBQNVUAY_AAAKCAMHFjMNVlIFGzQCAVQNu2M5UapgMFIFAF5SqDQ-AEUtXAxTFSNUAkeRNR06SxMWG0YHQQsWKQxfUnFcVxVOFRdfQ11DDht4XQhSGxUSE0BZX0cKQE0SXgBJOIFkYABQr2Q0VE0MUNE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEAVUUFBVAVcFSwEPAFdMBVMMABpUAVYBSABVDg9XBVEBAFdTBtA3fwoJBlceAFccAAcwVQQCUw5cCQgXVwAAVQoHU1YCatkyZ04H9ycvBw%3D%3D&country_code=US",
+    "URL": "https:\/\/test.ean.com\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F%7EOj46Zz8xJDEtZWBIMVNeSG02B2BlalgzVFYLCxgEVBVUCCQ5BwlWURlUDkkHVnk1bDZxNkBWUQdUWlcCA0sCB1JUGgcECwUYVloDVxlXVFIOUgMGAlMBAw4_FAEGCVNaCFYBHgBVB1oVAAVWAxVQUQpeGAYADgEGUlsGVVJVAQY_AAAKCAMHFjMNVlIFGzQCAVQNu2M5UapgMFIFAF5SqDQ-AEUtXAxTFSNUAkeRNR06SxMWG0YHQQsWKQxfUnFcVxVOFRdfQ11DDht4XQhSGxUSE0BZX0cKQE0SXgBJOIFkYABQr2Q0VE0MUtE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEAxVB1YABABQSwYKBwRMBQJZURpUDw8HSFNUDw5TCAcFVgZRA9A3fwoJBlceAFYcAwYwVAcCUgFcCQQXUgUFXQoFW1UHatkyZ04HSQLE2Q%3D%3D&country_code=US",
     "method": "get",
     "headers": {
-        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=cdfe00be5cf191f75709e9cb065d342cd7dc0a7be2a08b46435bea695de91a0c62436df680894095a9856131a6a14efb5b3793f65d0588cfc50b0eca62ed1ceb,timestamp=1656575935",
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=7aaeaef8dc4ece2d09baefbfacf4a1b5cf68de32765bee4a3dbce97e5be3d3baa8ea8039a625f253816d115dfa7e3e95d6a84b699ba2008f1916061bfc05f4c8,timestamp=1656686835",
         "Accept": "application\/json",
         "Accept-Encoding": "gzip, deflate",
         "Customer-Ip": "5.5.5.5",
@@ -19,11 +19,6 @@ RESPONSE: {
                 "nightly": [
                     [
                         {
-                            "type": "base_rate",
-                            "value": "4.76",
-                            "currency": "USD"
-                        },
-                        {
                             "type": "tax_and_service_fee",
                             "value": "0.28",
                             "currency": "USD"
@@ -31,6 +26,11 @@ RESPONSE: {
                         {
                             "type": "extra_person_fee",
                             "value": "0.29",
+                            "currency": "USD"
+                        },
+                        {
+                            "type": "base_rate",
+                            "value": "4.74",
                             "currency": "USD"
                         }
                     ]
@@ -44,84 +44,84 @@ RESPONSE: {
                 ],
                 "fees": {
                     "resort_fee": {
-                        "request_currency": {
-                            "value": "0.00",
-                            "currency": "USD"
-                        },
                         "billable_currency": {
                             "value": "0.35",
                             "currency": "THB"
-                        }
-                    },
-                    "mandatory_fee": {
+                        },
                         "request_currency": {
                             "value": "0.00",
                             "currency": "USD"
-                        },
+                        }
+                    },
+                    "mandatory_fee": {
                         "billable_currency": {
-                            "value": "0.70",
+                            "value": "0.71",
                             "currency": "THB"
+                        },
+                        "request_currency": {
+                            "value": "0.00",
+                            "currency": "USD"
                         }
                     }
                 },
                 "totals": {
-                    "property_fees": {
-                        "request_currency": {
-                            "value": "0.00",
+                    "inclusive": {
+                        "billable_currency": {
+                            "value": "5.41",
                             "currency": "USD"
                         },
-                        "billable_currency": {
-                            "value": "1.05",
-                            "currency": "THB"
+                        "request_currency": {
+                            "value": "5.41",
+                            "currency": "USD"
                         }
                     },
                     "minimum_selling_price": {
-                        "request_currency": {
-                            "value": "5.43",
+                        "billable_currency": {
+                            "value": "5.41",
                             "currency": "USD"
                         },
-                        "billable_currency": {
-                            "value": "5.43",
+                        "request_currency": {
+                            "value": "5.41",
                             "currency": "USD"
                         }
                     },
-                    "exclusive": {
-                        "request_currency": {
-                            "value": "5.05",
-                            "currency": "USD"
-                        },
+                    "property_fees": {
                         "billable_currency": {
-                            "value": "5.05",
+                            "value": "1.06",
+                            "currency": "THB"
+                        },
+                        "request_currency": {
+                            "value": "0.00",
                             "currency": "USD"
                         }
                     },
                     "gross_profit": {
-                        "request_currency": {
-                            "value": "0.1",
+                        "billable_currency": {
+                            "value": "0.11",
                             "currency": "USD"
                         },
-                        "billable_currency": {
-                            "value": "0.1",
-                            "currency": "USD"
-                        }
-                    },
-                    "inclusive": {
                         "request_currency": {
-                            "value": "5.43",
-                            "currency": "USD"
-                        },
-                        "billable_currency": {
-                            "value": "5.43",
+                            "value": "0.11",
                             "currency": "USD"
                         }
                     },
                     "marketing_fee": {
-                        "request_currency": {
-                            "value": "0",
+                        "billable_currency": {
+                            "value": "0.01",
                             "currency": "USD"
                         },
+                        "request_currency": {
+                            "value": "0.01",
+                            "currency": "USD"
+                        }
+                    },
+                    "exclusive": {
                         "billable_currency": {
-                            "value": "0",
+                            "value": "5.03",
+                            "currency": "USD"
+                        },
+                        "request_currency": {
+                            "value": "5.03",
                             "currency": "USD"
                         }
                     }
@@ -131,7 +131,7 @@ RESPONSE: {
         "links": {
             "book": {
                 "method": "POST",
-                "href": "\/v3\/itineraries?token=QldfCGlcUA4FV1FWBQYDXQFDRwdWXBBLDwheZkFdBwUFAlBQVAlTBRkCWFwFSwdXW1MYXVdQUUwCAQEFCl9XAlAFVVYQXlVHVApVC0BrDlBnQ1BWWxYBD3w9YHNxcSceQBZfUFI-UAtZWgMEUAVUAFUVUENDVk0AbApXCwZRBVcLBwEKCBNADUNdORZNEVUOTRNYVQtMCFcPVA1tVhQMRUZQQEMJVgFBRQBfBU0OBh9YFQMhVhAPAkNfBxFYW1RmVVIHEQhXV18UVV5WCQNbFGxjREZXREEAUQlCBUJdAR4VEFsHAEhTCQZbCBdGBEUGZ0BBFFIOZzd1KHEkNHNAVgAQa0YCRlAQChJDE1EfAFQRWAUFVA8DDBFRDQYBXFEKDVcHUQYfAFoYUQkfRARBRA9UQWgUF1xeD1oDZlhdWAIGXQACVkVdVQ5SAEoJB1UJEVZAAhBBQFZWB0AFNzd0R1VQEAldTAoIUGtQDlUKXFQOXFZDUgoDAA4JF0MKUFIAAhUAXRsFBhVVAQU9XVINVg9RDVMWTRJQAlsMCQUFRUsOXhZDXFcDPEQFTQwJNWd3dyF0KCt7JkdTVQ1XWTlbV1lUUkFpXF5ZTj1QAFVYEgteUFlGUUIEX1YQXkIIDUgMA0JEVlEEQRFRWgM-R1dHE1oDCBdQR1ABHhNBX1cDHgdRU1NYFlZGF0NXCwdGPkNWShJQXgxnCFxcVFkEVVZUUAQYVlMCU08ABAcJS1ZRUlFMUglXUAdUVlUMUQdTE0BcQEQLWAppUFxcUQAAAQQGD1odVFYBUB5XDQwFSQsCAQBIUwBWXQYCBVQLVAJXQ0ERV0RdFkNKawpQWwRUUQBTD1BQElMGXFARVhJUAmtNDFgEDFMIVwUbCAEfVlM2Bw9BAyQCWxEBcVcDTwkBA1QCBFEGAG1CBlxNCEIUQG5aClBTWW1nRAFVVDxUAEtXE10VFloJD1gBGXhRCl4TIAFUEh5TBwZnWwwIUV1UE0YFRlgND1tABCBDVCdDUAVDGxJXFQoCQAV0EQEFLwgMU3RVAR1XB0cCekcLVBVQQ1ARUQpDAicWBwsvCloDHFYGQwF1HFcHFRFUDRVYTRsRAFQTAXUEEgRyFgVxERFBFURYCFNKblxRCVZRFHoNVVVeSxNVDVAHBAdWClIADFc="
+                "href": "\/v3\/itineraries?token=QldfCGlcUA4FV1FWBQYDXQFDRwdWXBBLDwheZkFdBwVQUwMBBA5VUhkCDFxWSwdVAFEYXABWVkwJCFQFAlcOAQQPBQoQXlVHVApVC0BrDlBnQ1BWWxYBD3w9YHNxcSceQBZfUFI-UAtZWgMEUAVUAFUVUENDVk0AbApXCwZRBVcLBwEKCBNADUNdORZNEVUOTRNYVQtMCFcPVA1tVhQMRUZQQEMJVgFBRQBfBU0OBh9YFQMhVhAPAkNfBxFYW1RmVVIHClQYCQlHWFhdUxNUXlwNB1sVZGBFR1tFFlFRWEEEElsASBVCCABdTlJcAFIIHkZZEFJsQBpEAwg2MnYofCQ2cBINV0E8RQdFA0cEEUcUVEddBEdfXAoDXVZWEVsMVQZcCloPAlIHUxUJA0gBCUdBUkUQC1ZKOUYUVldQCVFpDVwJVFMJCFUEQ1VRDFYAEA4AAAlAVxVbEUtKBwpTGAVkMSYeVQIUXFFHD1oDbVIKAAgLVA5bU0MFClJUCQ1HRAUCVQQHGQMASVJSElRVAWcMUV8DDlYBV0BNSVxQXg1WAVcVRlELE0QNVwNrFlJCUVhmMCV7JyB9dixxFARaXVddaF5TXlJQRT1bC1hNPlJdUFlGCQIEXkoAFldYVxNWRFkDHQNQFRFdUgETRlFcBmYVWhBDVFxYQQJDX1BLQxZQVVUeU11WB1weBRdHFV9eXBNmQgdLElEOWz5bUFsAAFNQUVBQBE8AAAdTSwABDAdMUQlVUBsBVlUCAVMCAwRdAgBERAFFSlEOWmZaUFsCCggFAA0KBh5UAAAJSQZVUgRIAAJXXUhTUFoAAFAMUFIFCwYeFEVcRAZGEkw6D1NbCVRTAwFUBwFFUANfA0ZYEVAFbhVRCFILCgcAV05SABVUATEGVxEBcVYCRAt4BVAdCFMHBwJRUAMIPBAFVkRXEUZPO1tbBgYNZTAWB11QPlAAEVAUCBVHW1xWWQsTKQ1eBhNzBwZLHgEDU2tQCVoCW1YXEwcRWA0IXkBTIBIAIEcAAkxJFVMQBgESVyBHBgR7DFYCdwdUHFALQ1R6HAcGEFEcVEMBBxxXIhFWCy9dCFQTC1cQVicQUVNATANaRg9CSxEEBRYFcgIQACYRUHASEkNIQVlcURY6W11YAgITew5dUw9FRlpcAFYKAFVQBAgEVQ=="
             }
         }
     },
