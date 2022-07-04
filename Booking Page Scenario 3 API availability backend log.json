@@ -2,7 +2,7 @@ REQUEST: {
     "URL": "https:\/\/test.ean.com\/v3\/properties\/availability?checkin=2022-07-29&checkout=2022-07-30&property_id%5B0%5D=19381112&currency=USD&language=en-US&country_code=US&occupancy%5B0%5D=2&sales_channel=website&sales_environment=hotel_only&rate_plan_count=10&rate_option=net_rates&includes=details&partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&property_id=19381112&occupancy=2",
     "method": "get",
     "headers": {
-        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=9aab2788a231cf1764d801615e2ee3dad3c2d4c96a390696bd6456caf77337c4caf811a540891e3e36936cf20fda5fff8f0567d8a8a3cd258b2e2b6546f723c6,timestamp=1656579831",
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=36a46244be7ce993a8d05cc0ed191e7950edbcf61ba2f3433fb67e061263dd7727889ddba9bfc318cc4e69d76a347ddbf696fba9dfb1c59fabab7494eb169574,timestamp=1656942221",
         "Accept": "application\/json",
         "Accept-Encoding": "gzip, deflate",
         "Customer-Ip": "5.5.5.5",
@@ -10,7 +10,10 @@ REQUEST: {
         "user-agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko\/20100101 Firefox\/20.0"
     }
 }
-RESPONSE: {
+
+RESPONSE:
+URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout=2022-07-30&property_id%5B0%5D=19381112&currency=USD&language=en-US&country_code=US&occupancy%5B0%5D=2&sales_channel=website&sales_environment=hotel_only&rate_plan_count=10&rate_option=net_rates&includes=details&partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&property_id=19381112&occupancy=2
+{
     "headers": {},
     "body": [
         {
@@ -23,7 +26,7 @@ RESPONSE: {
                         {
                             "id": "385360163",
                             "status": "available",
-                            "available_rooms": 10,
+                            "available_rooms": 9,
                             "refundable": true,
                             "member_deal_available": true,
                             "sale_scenario": {
@@ -42,7 +45,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBeAFBWAAYAFFUIAwEVVV1YDUxQBlEHHwMMAgBQUVAHBlVSVBJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVVWDV0EWlQVAgFaARkEVFENSAtUVVBJXVYFUVFcBVJWVQZQHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4vcmoneCR5NxJVVQxQE1lNUQFsRAhcVgpWVQEKSwZQFAIJMQQPQQt1UlAVAyIFVBYHVA1VWgtTWVNpFFBXEVdMEB1vAldVB19ta0UDVkRaAglVCgRWRwUNVAENCgtbUAcFUE8CBxUCXBBFVUFDCgQQa0ZCCl4MWQdvUAYEUFYAAQMARVsTQxRWW1odXmE3fUJXDlZVUgpAEFkHU1MDFFIDH1UGFEdDR0NaWlVHaAtQWAYAR3VQVFZeRxEIDwFUBAcMDFMOBA=="
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQJZAwBQVwgKFANYBlQVVVwEDEwKAAAGHwdRVAMCAgFWAFIFXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OB1QECwBWUgIVAQRTUBkEAlcDSFFWWwdJVFcDAlUOVAYCVgZUHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4vcmoneCR5NxJVVQxQE1lNUQFsRAhcVgpWVQEKSwZRFAENMQUFQQt1VlAVAyIEVBYFVg1SUARXVFJpFFBXEVdMEB1vAldVB19ta0UDVkRaAglVCgRWRwUNVAENCgtbUAcFUE8CBxUCXBBFVUFDCgQQa0ZCCl4MWQdvUAYEUFYAAQMARVsTQxRWW1odXmE3fUJXDlZVUgpAEFkHU1MDFFIDH1UGFEdDR0NaWlVHaAtQWAYAR3VQVFZeRxEIDwpQAQ4FAFABBFM="
                                 }
                             },
                             "bed_groups": {
@@ -52,7 +55,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068854\/rates\/385360163?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdWVksJVoM5Ytk1YcFiObw6ZacxNfs2Z5VnZ51kHANSBldQBgEBGl5UVg0UUQRRU0wAAQNSFQNQAwAEAgkCCVAAUYYwLlAFUwoUBFMeA1FlAw5eVQACUwdICgQAVQwOUQACONkyMhUDnGqlEQ=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068854\/rates\/385360163?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdWVksJVoM5Ytk1YcFiObw6ZacxNfs2Z5VnZ51kHAcGBQxTBgBVGlMIVgUUUQdQU0xaUABUFQEFVFpVAw4GAwNUBoYwLlAFUwoUBFIeAFVlAgReUQACUgdICAYAUgYBVQ0DONkyMhUD4KYBhA=="
                                         }
                                     },
                                     "configuration": [
@@ -89,13 +92,23 @@ RESPONSE: {
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
+                                        "inclusive": {
                                             "billable_currency": {
-                                                "value": "4.74",
+                                                "value": "523.97",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "4.74",
+                                                "value": "523.97",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "433.66",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             }
                                         },
@@ -109,16 +122,6 @@ RESPONSE: {
                                                 "currency": "USD"
                                             }
                                         },
-                                        "inclusive": {
-                                            "billable_currency": {
-                                                "value": "523.97",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "523.97",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "gross_profit": {
                                             "billable_currency": {
                                                 "value": "94.86",
@@ -129,13 +132,13 @@ RESPONSE: {
                                                 "currency": "USD"
                                             }
                                         },
-                                        "exclusive": {
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "433.66",
+                                                "value": "4.74",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "433.66",
+                                                "value": "4.74",
                                                 "currency": "USD"
                                             }
                                         }
@@ -152,7 +155,7 @@ RESPONSE: {
                         {
                             "id": "385360163",
                             "status": "available",
-                            "available_rooms": 10,
+                            "available_rooms": 9,
                             "refundable": true,
                             "member_deal_available": true,
                             "sale_scenario": {
@@ -171,7 +174,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPAAQGA1EFCkwNAFBbTAwEDFkfVlRUVhgDC1UDAwYGBlIFBQYVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8GWg1UVg1ZHABRDQEdUAJXXB5dUwUGSF0DVFMKB1dXBwFUCxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fen02cy12LWAUVwdbBEpYQABXbxVYXlJZVwMKVBtWDxwKVWAGXR0HI1MDFVBxUAkaUgFcUgteVF0FaBVbC0xWFhZJPlteBgcFbTBAUlVDD1BZAwlXVUAGWQcFCAwIXwUHUFAfAA8dVw8TRFJFEA8HRmlAF1cDXA5VZgtdW1AJAA0CVx4FRBRBUFcHGgkxaiASBVtTWg5aERAIUVEDC08EBUsFAhJFQkNGX1lQRT1dAQkGVRB7WVBWXxcQXwRUBwQFAFIIAVIF"
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoNBwdWBQYLAExbUFUOTAwFUFgfDFIFVxgHVgMAUVVXV1QCUg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVUHCAsJBAUPHANUBFAdUFRRUh4HUQtRSFQCUgAOVQYDUwJUDxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fen02cy12LWAUVwdbBEpYQABXbxVYXlJZVwMKVBtWDhwJUWAHVx0HI1cDFVBxUQkaUANcVQFRUFAEaBVbC0xWFhZJPlteBgcFbTBAUlVDD1BZAwlXVUAGWQcFCAwIXwUHUFAfAA8dVw8TRFJFEA8HRmlAF1cDXA5VZgtdW1AJAA0CVx4FRBRBUFcHGgkxaiASBVtTWg5aERAIUVEDC08EBUsFAhJFQkNGX1lQRT1dAQkGVRB7WVBWXxcQXwRUAgAND1cNA1wG"
                                 }
                             },
                             "bed_groups": {
@@ -181,7 +184,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068854\/rates\/385360163?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdUXEsBUIM5Ytk1YcFiObw6ZqcxNfs2Z5VnZ51kHANSBldQBgEBGl5UVg0UUQRRU0wAAQNSFQNQAwAEAgkCCVAAUYYwLlAFUwoUBFMeA1FlAw5eVQACUwdICgQAVQwOUQACONkyMhUD6cqRCw=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068854\/rates\/385360163?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdUXEsBUIM5Ytk1YcFiObw6ZqcxNfs2Z5VnZ51kHAcGBQxTBgBVGlMIVgUUUQdQU0xaUABUFQEFVFpVAw4GAwNUBoYwLlAFUwoUBFIeAFVlAgReUQACUgdICAYAUgYBVQ0DONkyMhUDlQY1ng=="
                                         }
                                     },
                                     "configuration": [
@@ -206,25 +209,35 @@ RESPONSE: {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "sales_tax",
-                                                "value": "75.45",
+                                                "type": "base_rate",
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             },
                                             {
-                                                "type": "base_rate",
-                                                "value": "433.66",
+                                                "type": "sales_tax",
+                                                "value": "75.45",
                                                 "currency": "USD"
                                             }
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
+                                        "inclusive": {
                                             "billable_currency": {
-                                                "value": "3.83",
+                                                "value": "509.11",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "3.83",
+                                                "value": "509.11",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "433.66",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             }
                                         },
@@ -238,16 +251,6 @@ RESPONSE: {
                                                 "currency": "USD"
                                             }
                                         },
-                                        "inclusive": {
-                                            "billable_currency": {
-                                                "value": "509.11",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "509.11",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "gross_profit": {
                                             "billable_currency": {
                                                 "value": "76.55",
@@ -258,13 +261,13 @@ RESPONSE: {
                                                 "currency": "USD"
                                             }
                                         },
-                                        "exclusive": {
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "433.66",
+                                                "value": "3.83",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "433.66",
+                                                "value": "3.83",
                                                 "currency": "USD"
                                             }
                                         }
@@ -306,7 +309,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPAAQGA1EFCkwNAFBbTAwEDFkfVlRUVhgDC1UDAwYGBlIFBQYVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8GWg1UVg1ZHABRDQEdUAJXXB5dUwUGSF0DVFMKB1dXBwFUCxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQ0TV3kEUUYDcVYBSwsBWARdWgZeVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQ9WBgQNDl4IAg=="
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoNBwdWBQYLAExbUFUOTAwFUFgfDFIFVxgHVgMAUVVXV1QCUg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVUHCAsJBAUPHANUBFAdUFRRUh4HUQtRSFQCUgAOVQYDUwJUDxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kAUUYDcVcBSwkDWANXVQJTVj8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAAhVBwUHCV8NAQ=="
                                 }
                             },
                             "bed_groups": {
@@ -316,7 +319,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068836\/rates\/385360123?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SA1SoNWtREnFaRwcKUEJ2UAVCxDUcb0lDREgSBxRYQXdBDglzUFcbHxURXh5TGwJDckxfWEQZG0hFA1tMWEcaFg4CGW-GZDFXVvhlY1AFVE0KW9E1ZNliPMQ5Zb8xNvM2Z61nZ5dkOc9mEFJVAFZQA1JTSwxcVQxMBVAIBxoOXANWSFcAUVsCBVRRWgEFAtA3fwoJBlceAFccAAcwVQoCVgVcDAAXVgEPVAAMV1sGatkyZ04H6dT3-A=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068836\/rates\/385360123?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SA1SoNWtREnFaRwcKUEJ2UAVCxDUcb0lDREgSBxRYQXdBDglzUFcbHxURXh5TGwJDckxfWEQZG0hFA1tMWEcaFg4CGW-GZDFXVvhlY1ABV00MUtE1ZNliPMQ5Zb8xNvM2Z61nZ5dkOc9mEFYBAw1TA1MHSwEAVQRMBVMJBxpUDQBQSFVVBgFTBFNVUFJRVdA3fwoJBlceAFYcAwMwVAACUgVcDQAXVAMPUwoDU1YHatkyZ04HFCeBDQ=="
                                         }
                                     },
                                     "configuration": [
@@ -341,65 +344,65 @@ RESPONSE: {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "sales_tax",
-                                                "value": "82.29",
+                                                "type": "base_rate",
+                                                "value": "439.87",
                                                 "currency": "USD"
                                             },
                                             {
-                                                "type": "base_rate",
-                                                "value": "472.99",
+                                                "type": "sales_tax",
+                                                "value": "76.54",
                                                 "currency": "USD"
                                             }
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
-                                            "billable_currency": {
-                                                "value": "4.17",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "4.17",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "billable_currency": {
-                                                "value": "525.55",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "525.55",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "inclusive": {
                                             "billable_currency": {
-                                                "value": "555.28",
+                                                "value": "516.41",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "555.28",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "gross_profit": {
-                                            "billable_currency": {
-                                                "value": "83.49",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "83.49",
+                                                "value": "516.41",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
                                             "billable_currency": {
-                                                "value": "472.99",
+                                                "value": "439.87",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "472.99",
+                                                "value": "439.87",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "488.75",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "488.75",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "77.64",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "77.64",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "3.88",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "3.88",
                                                 "currency": "USD"
                                             }
                                         }
@@ -435,7 +438,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBeAFBWAAYAFFUIAwEVVV1YDUxQBlEHHwMMAgBQUVAHBlVSVBJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVVWDV0EWlQVAgFaARkEVFENSAtUVVBJXVYFUVFcBVJWVQZQHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtVCWUJXBEFJQgHR1BxBVIeVg0NUQxdVwtQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUBQhTAgMMD1YJ"
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQJZAwBQVwgKFANYBlQVVVwEDEwKAAAGHwdRVAMCAgFWAFIFXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OB1QECwBWUgIVAQRTUBkEAlcDSFFWWwdJVFcDAlUOVAYCVgZUHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDWUIVhEFJQwHR1BxBFIeVA8NVgZSUwZRO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlRAQ5TBgUCDlc="
                                 }
                             },
                             "bed_groups": {
@@ -445,7 +448,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068836\/rates\/385360123?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SA1SoNWtREnFaRwcKUEJ2UAVCxDUcb0lDREgSBxRYQXdBDglzUFcbHxURXh5TGwJDckxfWEQZG0hFA1tMWEcaFg4CGW-GZDFXVvhlY1AHUE0MWtE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEFJVAFZQA1JTSwxcVQxMBVAIBxoOXANWSFcAUVsCBVRRWgEFAtA3fwoJBlceAFccAAcwVQoCVgVcDAAXVgEPVAAMV1sGatkyZ04HcHEdiQ=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068836\/rates\/385360123?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SA1SoNWtREnFaRwcKUEJ2UAVCxDUcb0lDREgSBxRYQXdBDglzUFcbHxURXh5TGwJDckxfWEQZG0hFA1tMWEcaFg4CGW-GZDFXVvhlY1ADUE0MVNE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEFYBAw1TA1MHSwEAVQRMBVMJBxpUDQBQSFVVBgFTBFNVUFJRVdA3fwoJBlceAFYcAwMwVAACUgVcDQAXVAMPUwoDU1YHatkyZ04HzFPZaA=="
                                         }
                                     },
                                     "configuration": [
@@ -471,64 +474,64 @@ RESPONSE: {
                                         [
                                             {
                                                 "type": "base_rate",
-                                                "value": "472.99",
+                                                "value": "439.87",
                                                 "currency": "USD"
                                             },
                                             {
                                                 "type": "sales_tax",
-                                                "value": "98.50",
+                                                "value": "91.60",
                                                 "currency": "USD"
                                             }
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
-                                            "billable_currency": {
-                                                "value": "5.17",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "5.17",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "billable_currency": {
-                                                "value": "525.55",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "525.55",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "inclusive": {
                                             "billable_currency": {
-                                                "value": "571.49",
+                                                "value": "531.47",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "571.49",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "gross_profit": {
-                                            "billable_currency": {
-                                                "value": "103.46",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "103.46",
+                                                "value": "531.47",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
                                             "billable_currency": {
-                                                "value": "472.99",
+                                                "value": "439.87",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "472.99",
+                                                "value": "439.87",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "488.75",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "488.75",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "96.22",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "96.22",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "4.81",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.81",
                                                 "currency": "USD"
                                             }
                                         }
@@ -551,7 +554,7 @@ RESPONSE: {
                         {
                             "id": "385360137",
                             "status": "available",
-                            "available_rooms": 29,
+                            "available_rooms": 28,
                             "refundable": true,
                             "member_deal_available": true,
                             "sale_scenario": {
@@ -570,7 +573,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBeAFBWAAYAFFUIAwEVVV1YDUxQBlEHHwMMAgBQUVAHBlVSVBJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVVWDV0EWlQVAgFaARkEVFENSAtUVVBJXVYFUVFcBVJWVQZQHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4vcmoneCR5NxJVVQxQE1lNUQFsRAhcVgpWVQEKSwZQFAIJMQQPQQt1UlAVAyIFVBYHVA1VWgtTWVNpFFBXEVdMEB1vAldVB19ta0UDVkRaAglVCgRWRwUNVAENCgtbUAcFUE8CBxUCXBBFVUFDCgQQa0ZCCl4MWQdvUAYEUFYAAQMARVsTQxRWW1odXmE3fUJXDlZVUgpAEFkHU1MDFFIDH1UGFEdDR0NaWlVHaAtQWAYAR3VQVFZeRxEIDwFUBAcMDFMOBA=="
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQJZAwBQVwgKFANYBlQVVVwEDEwKAAAGHwdRVAMCAgFWAFIFXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OB1QECwBWUgIVAQRTUBkEAlcDSFFWWwdJVFcDAlUOVAYCVgZUHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4vcmoneCR5NxJVVQxQE1lNUQFsRAhcVgpWVQEKSwZRFAENMQUFQQt1VlAVAyIEVBYFVg1SUARXVFJpFFBXEVdMEB1vAldVB19ta0UDVkRaAglVCgRWRwUNVAENCgtbUAcFUE8CBxUCXBBFVUFDCgQQa0ZCCl4MWQdvUAYEUFYAAQMARVsTQxRWW1odXmE3fUJXDlZVUgpAEFkHU1MDFFIDH1UGFEdDR0NaWlVHaAtQWAYAR3VQVFZeRxEIDwpQAQ4FAFABBFM="
                                 }
                             },
                             "bed_groups": {
@@ -580,7 +583,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068841\/rates\/385360137?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SA1SoNWtREnFaRwcKUEJ2UAVCxDUcb0lDREgSBxRYQXdBDglzUFcbHxURXh5TGwJDckxfWEQZG0hFA1tMWEcaFg4CGW-GZDFXVvhlY1AHUE0MWtE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEFJVAFZQA1JTSwxcVQxMBVAIBxoOXANWSFcAUVsCBVRRWgEFAtA3fwoJBlceAFccAAcwVQoCVgVcDAAXVgEPVAAMV1sGatkyZ04HcHEdiQ=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068841\/rates\/385360137?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SA1SoNWtREnFaRwcKUEJ2UAVCxDUcb0lDREgSBxRYQXdBDglzUFcbHxURXh5TGwJDckxfWEQZG0hFA1tMWEcaFg4CGW-GZDFXVvhlY1ADUE0MVNE1ZNliPMQ5Zb8xNfM2Z61nZ5dkOc9mEFYBAw1TA1MHSwEAVQRMBVMJBxpUDQBQSFVVBgFTBFNVUFJRVdA3fwoJBlceAFYcAwMwVAACUgVcDQAXVAMPUwoDU1YHatkyZ04HzFPZaA=="
                                         }
                                     },
                                     "configuration": [
@@ -606,64 +609,64 @@ RESPONSE: {
                                         [
                                             {
                                                 "type": "base_rate",
-                                                "value": "472.99",
+                                                "value": "439.87",
                                                 "currency": "USD"
                                             },
                                             {
                                                 "type": "sales_tax",
-                                                "value": "98.50",
+                                                "value": "91.60",
                                                 "currency": "USD"
                                             }
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
-                                            "billable_currency": {
-                                                "value": "5.17",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "5.17",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "billable_currency": {
-                                                "value": "525.55",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "525.55",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "inclusive": {
                                             "billable_currency": {
-                                                "value": "571.49",
+                                                "value": "531.47",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "571.49",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "gross_profit": {
-                                            "billable_currency": {
-                                                "value": "103.46",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "103.46",
+                                                "value": "531.47",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
                                             "billable_currency": {
-                                                "value": "472.99",
+                                                "value": "439.87",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "472.99",
+                                                "value": "439.87",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "488.75",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "488.75",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "96.22",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "96.22",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "4.81",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.81",
                                                 "currency": "USD"
                                             }
                                         }
@@ -680,7 +683,7 @@ RESPONSE: {
                         {
                             "id": "385360137",
                             "status": "available",
-                            "available_rooms": 29,
+                            "available_rooms": 28,
                             "refundable": true,
                             "member_deal_available": true,
                             "sale_scenario": {
@@ -699,7 +702,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPAAQGA1EFCkwNAFBbTAwEDFkfVlRUVhgDC1UDAwYGBlIFBQYVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8GWg1UVg1ZHABRDQEdUAJXXB5dUwUGSF0DVFMKB1dXBwFUCxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fen02cy12LWAUVwdbBEpYQABXbxVYXlJZVwMKVBtWDxwKVWAGXR0HI1MDFVBxUAkaUgFcUgteVF0FaBVbC0xWFhZJPlteBgcFbTBAUlVDD1BZAwlXVUAGWQcFCAwIXwUHUFAfAA8dVw8TRFJFEA8HRmlAF1cDXA5VZgtdW1AJAA0CVx4FRBRBUFcHGgkxaiASBVtTWg5aERAIUVEDC08EBUsFAhJFQkNGX1lQRT1dAQkGVRB7WVBWXxcQXwRUBwQFAFIIAVIF"
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoNBwdWBQYLAExbUFUOTAwFUFgfDFIFVxgHVgMAUVVXV1QCUg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVUHCAsJBAUPHANUBFAdUFRRUh4HUQtRSFQCUgAOVQYDUwJUDxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fen02cy12LWAUVwdbBEpYQABXbxVYXlJZVwMKVBtWDhwJUWAHVx0HI1cDFVBxUQkaUANcVQFRUFAEaBVbC0xWFhZJPlteBgcFbTBAUlVDD1BZAwlXVUAGWQcFCAwIXwUHUFAfAA8dVw8TRFJFEA8HRmlAF1cDXA5VZgtdW1AJAA0CVx4FRBRBUFcHGgkxaiASBVtTWg5aERAIUVEDC08EBUsFAhJFQkNGX1lQRT1dAQkGVRB7WVBWXxcQXwRUAgAND1cNA1wG"
                                 }
                             },
                             "bed_groups": {
@@ -709,7 +712,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068841\/rates\/385360137?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SA1SoNWtREnFaRwcKUEJ2UAVCxDUcb0lDREgSBxRYQXdBDglzUFcbHxURXh5TGwJDckxfWEQZG0hFA1tMWEcaFg4CGW-GZDFXVvhlY1AFVE0KW9E1ZNliPMQ5Zb8xNvM2Z61nZ5dkOc9mEFJVAFZQA1JTSwxcVQxMBVAIBxoOXANWSFcAUVsCBVRRWgEFAtA3fwoJBlceAFccAAcwVQoCVgVcDAAXVgEPVAAMV1sGatkyZ04H6dT3-A=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068841\/rates\/385360137?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SA1SoNWtREnFaRwcKUEJ2UAVCxDUcb0lDREgSBxRYQXdBDglzUFcbHxURXh5TGwJDckxfWEQZG0hFA1tMWEcaFg4CGW-GZDFXVvhlY1ABV00MUtE1ZNliPMQ5Zb8xNvM2Z61nZ5dkOc9mEFYBAw1TA1MHSwEAVQRMBVMJBxpUDQBQSFVVBgFTBFNVUFJRVdA3fwoJBlceAFYcAwMwVAACUgVcDQAXVAMPUwoDU1YHatkyZ04HFCeBDQ=="
                                         }
                                     },
                                     "configuration": [
@@ -734,65 +737,65 @@ RESPONSE: {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "sales_tax",
-                                                "value": "82.29",
+                                                "type": "base_rate",
+                                                "value": "439.87",
                                                 "currency": "USD"
                                             },
                                             {
-                                                "type": "base_rate",
-                                                "value": "472.99",
+                                                "type": "sales_tax",
+                                                "value": "76.54",
                                                 "currency": "USD"
                                             }
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
-                                            "billable_currency": {
-                                                "value": "4.17",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "4.17",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "billable_currency": {
-                                                "value": "525.55",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "525.55",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "inclusive": {
                                             "billable_currency": {
-                                                "value": "555.28",
+                                                "value": "516.41",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "555.28",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "gross_profit": {
-                                            "billable_currency": {
-                                                "value": "83.49",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "83.49",
+                                                "value": "516.41",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
                                             "billable_currency": {
-                                                "value": "472.99",
+                                                "value": "439.87",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "472.99",
+                                                "value": "439.87",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "488.75",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "488.75",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "77.64",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "77.64",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "3.88",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "3.88",
                                                 "currency": "USD"
                                             }
                                         }
@@ -815,7 +818,7 @@ RESPONSE: {
                         {
                             "id": "385360142",
                             "status": "available",
-                            "available_rooms": 34,
+                            "available_rooms": 33,
                             "refundable": true,
                             "member_deal_available": true,
                             "sale_scenario": {
@@ -834,7 +837,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPAAQGA1EFCkwNAFBbTAwEDFkfVlRUVhgDC1UDAwYGBlIFBQYVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8GWg1UVg1ZHABRDQEdUAJXXB5dUwUGSF0DVFMKB1dXBwFUCxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQ0TV3kEUUYDcVYBSwsBWARdWgZeVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQ9WBgQNDl4IAg=="
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoNBwdWBQYLAExbUFUOTAwFUFgfDFIFVxgHVgMAUVVXV1QCUg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVUHCAsJBAUPHANUBFAdUFRRUh4HUQtRSFQCUgAOVQYDUwJUDxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kAUUYDcVcBSwkDWANXVQJTVj8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAAhVBwUHCV8NAQ=="
                                 }
                             },
                             "bed_groups": {
@@ -844,7 +847,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068843\/rates\/385360142?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdWVUsAVYM5Ytk1YcFiObw6ZqcxNfs2Z5VnZ51kHANSBldQBgEBGl5UVg0UUQRRU0wAAQNSFQNQAwAEAgkCCVAAUYYwLlAFUwoUBFMeA1FlAw5eVQACUwdICgQAVQwOUQACONkyMhUDGgkxqg=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068843\/rates\/385360142?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdUXEsBUIM5Ytk1YcFiObw6ZqcxNfs2Z5VnZ51kHAcGBQxTBgBVGlMIVgUUUQdQU0xaUABUFQEFVFpVAw4GAwNUBoYwLlAFUwoUBFIeAFVlAgReUQACUgdICAYAUgYBVQ0DONkyMhUDlQY1ng=="
                                         }
                                     },
                                     "configuration": [
@@ -869,65 +872,65 @@ RESPONSE: {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "sales_tax",
-                                                "value": "77.06",
+                                                "type": "base_rate",
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             },
                                             {
-                                                "type": "base_rate",
-                                                "value": "442.98",
+                                                "type": "sales_tax",
+                                                "value": "75.45",
                                                 "currency": "USD"
                                             }
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
-                                            "billable_currency": {
-                                                "value": "3.91",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "3.91",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "billable_currency": {
-                                                "value": "492.20",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "492.20",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "inclusive": {
                                             "billable_currency": {
-                                                "value": "520.04",
+                                                "value": "509.11",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "520.04",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "gross_profit": {
-                                            "billable_currency": {
-                                                "value": "78.2",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "78.2",
+                                                "value": "509.11",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
                                             "billable_currency": {
-                                                "value": "442.98",
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "442.98",
+                                                "value": "433.66",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "481.85",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "481.85",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "76.55",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "76.55",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "3.83",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "3.83",
                                                 "currency": "USD"
                                             }
                                         }
@@ -944,7 +947,7 @@ RESPONSE: {
                         {
                             "id": "385360142",
                             "status": "available",
-                            "available_rooms": 34,
+                            "available_rooms": 33,
                             "refundable": true,
                             "member_deal_available": true,
                             "sale_scenario": {
@@ -963,7 +966,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBeAFBWAAYAFFUIAwEVVV1YDUxQBlEHHwMMAgBQUVAHBlVSVBJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVVWDV0EWlQVAgFaARkEVFENSAtUVVBJXVYFUVFcBVJWVQZQHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtVCWUJXBEFJQgHR1BxBVIeVg0NUQxdVwtQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUBQhTAgMMD1YJ"
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQJZAwBQVwgKFANYBlQVVVwEDEwKAAAGHwdRVAMCAgFWAFIFXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OB1QECwBWUgIVAQRTUBkEAlcDSFFWWwdJVFcDAlUOVAYCVgZUHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDWUIVhEFJQwHR1BxBFIeVA8NVgZSUwZRO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlRAQ5TBgUCDlc="
                                 }
                             },
                             "bed_groups": {
@@ -973,7 +976,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068843\/rates\/385360142?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdXUEsCU4M5Ytk1YcFiObw6ZacxNfs2Z5VnZ51kHANSBldQBgEBGl5UVg0UUQRRU0wAAQNSFQNQAwAEAgkCCVAAUYYwLlAFUwoUBFMeA1FlAw5eVQACUwdICgQAVQwOUQACONkyMhUDho5Qcw=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068843\/rates\/385360142?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdWVksJVoM5Ytk1YcFiObw6ZacxNfs2Z5VnZ51kHAcGBQxTBgBVGlMIVgUUUQdQU0xaUABUFQEFVFpVAw4GAwNUBoYwLlAFUwoUBFIeAFVlAgReUQACUgdICAYAUgYBVQ0DONkyMhUD4KYBhA=="
                                         }
                                     },
                                     "configuration": [
@@ -999,64 +1002,64 @@ RESPONSE: {
                                         [
                                             {
                                                 "type": "base_rate",
-                                                "value": "442.98",
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             },
                                             {
                                                 "type": "sales_tax",
-                                                "value": "92.24",
+                                                "value": "90.31",
                                                 "currency": "USD"
                                             }
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
-                                            "billable_currency": {
-                                                "value": "4.85",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "4.85",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "billable_currency": {
-                                                "value": "492.20",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "492.20",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "inclusive": {
                                             "billable_currency": {
-                                                "value": "535.22",
+                                                "value": "523.97",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "535.22",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "gross_profit": {
-                                            "billable_currency": {
-                                                "value": "96.9",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "96.9",
+                                                "value": "523.97",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
                                             "billable_currency": {
-                                                "value": "442.98",
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "442.98",
+                                                "value": "433.66",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "481.85",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "481.85",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "gross_profit": {
+                                            "billable_currency": {
+                                                "value": "94.86",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "94.86",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
+                                                "value": "4.74",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.74",
                                                 "currency": "USD"
                                             }
                                         }
@@ -1098,7 +1101,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPAAQGA1EFCkwNAFBbTAwEDFkfVlRUVhgDC1UDAwYGBlIFBQYVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8GWg1UVg1ZHABRDQEdUAJXXB5dUwUGSF0DVFMKB1dXBwFUCxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgBLCgFtVQ0TV3kEUUYDcVYBSwsBWARdWgZeVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQ9WBgQNDl4IAg=="
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoNBwdWBQYLAExbUFUOTAwFUFgfDFIFVxgHVgMAUVVXV1QCUg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCVUHCAsJBAUPHANUBFAdUFRRUh4HUQtRSFQCUgAOVQYDUwJUDxJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kAUUYDcVcBSwkDWANXVQJTVj8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAAhVBwUHCV8NAQ=="
                                 }
                             },
                             "bed_groups": {
@@ -1108,7 +1111,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068839\/rates\/385360130?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdUXEsBUIM5Ytk1YcFiObw6ZqcxNfs2Z5VnZ51kHANSBldQBgEBGl5UVg0UUQRRU0wAAQNSFQNQAwAEAgkCCVAAUYYwLlAFUwoUBFMeA1FlAw5eVQACUwdICgQAVQwOUQACONkyMhUD6cqRCw=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068839\/rates\/385360130?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdUXEsBUIM5Ytk1YcFiObw6ZqcxNfs2Z5VnZ51kHAcGBQxTBgBVGlMIVgUUUQdQU0xaUABUFQEFVFpVAw4GAwNUBoYwLlAFUwoUBFIeAFVlAgReUQACUgdICAYAUgYBVQ0DONkyMhUDlQY1ng=="
                                         }
                                     },
                                     "configuration": [
@@ -1133,25 +1136,35 @@ RESPONSE: {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "sales_tax",
-                                                "value": "75.45",
+                                                "type": "base_rate",
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             },
                                             {
-                                                "type": "base_rate",
-                                                "value": "433.66",
+                                                "type": "sales_tax",
+                                                "value": "75.45",
                                                 "currency": "USD"
                                             }
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
+                                        "inclusive": {
                                             "billable_currency": {
-                                                "value": "3.83",
+                                                "value": "509.11",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "3.83",
+                                                "value": "509.11",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "433.66",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             }
                                         },
@@ -1165,16 +1178,6 @@ RESPONSE: {
                                                 "currency": "USD"
                                             }
                                         },
-                                        "inclusive": {
-                                            "billable_currency": {
-                                                "value": "509.11",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "509.11",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "gross_profit": {
                                             "billable_currency": {
                                                 "value": "76.55",
@@ -1185,13 +1188,13 @@ RESPONSE: {
                                                 "currency": "USD"
                                             }
                                         },
-                                        "exclusive": {
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "433.66",
+                                                "value": "3.83",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "433.66",
+                                                "value": "3.83",
                                                 "currency": "USD"
                                             }
                                         }
@@ -1227,7 +1230,7 @@ RESPONSE: {
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQIDUQICDVZWH15TAg0bAwIGUR0NU1ZQSABWB1VeBARTDVFSAB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBeAFBWAAYAFFUIAwEVVV1YDUxQBlEHHwMMAgBQUVAHBlVSVBJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVVWDV0EWlQVAgFaARkEVFENSAtUVVBJXVYFUVFcBVJWVQZQHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IUBtVCWUJXBEFJQgHR1BxBVIeVg0NUQxdVwtQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUBQhTAgMMD1YJ"
+                                    "href": "\/v3\/properties\/19381112\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWQZXUlkBDVcCH1MPAgUbAwEHUR1XAlVWSAIDUA8PBQNXBwIGVx8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQJZAwBQVwgKFANYBlQVVVwEDEwKAAAGHwdRVAMCAgFWAFIFXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0OB1QECwBWUgIVAQRTUBkEAlcDSFFWWwdJVFcDAlUOVAYCVgZUHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDWUIVhEFJQwHR1BxBFIeVA8NVgZSUwZRO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlRAQ5TBgUCDlc="
                                 }
                             },
                             "bed_groups": {
@@ -1237,7 +1240,7 @@ RESPONSE: {
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/19381112\/rooms\/316068839\/rates\/385360130?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJTAlZXAlcCFFYFAAUbBlEPDx5UAQdRGlQNVVECBQQLAgFWBj5BCwoGBFIBAAcVA1YPBhpVAwABGVxQA1ofWQpTBVdVUVoHA1QAVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdWVksJVoM5Ytk1YcFiObw6ZacxNfs2Z5VnZ51kHANSBldQBgEBGl5UVg0UUQRRU0wAAQNSFQNQAwAEAgkCCVAAUYYwLlAFUwoUBFMeA1FlAw5eVQACUwdICgQAVQwOUQACONkyMhUDnGqlEQ=="
+                                            "href": "\/v3\/properties\/19381112\/rooms\/316068839\/rates\/385360130?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVBUAQZRVVkIFABVBVAbBlBTDh4OB1ZQGlBQA1JQVlVaBAYBDT5BAQtUAg9TCFEVAFMGVxpVVQYPGQZSDQ0fUAtVVlMHAA5TAFQEVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9SB1CoNWxSEn5cXAJGdwdQl2AePU8RQEsRVRNYQH0LDVZ2BwETGRFKWk0HFV4UclEPUxsfFhdAWFdEC0FBEwlSSWmCZTAGUflkZAdWVksJVoM5Ytk1YcFiObw6ZacxNfs2Z5VnZ51kHAcGBQxTBgBVGlMIVgUUUQdQU0xaUABUFQEFVFpVAw4GAwNUBoYwLlAFUwoUBFIeAFVlAgReUQACUgdICAYAUgYBVQ0DONkyMhUD4KYBhA=="
                                         }
                                     },
                                     "configuration": [
@@ -1274,13 +1277,23 @@ RESPONSE: {
                                         ]
                                     ],
                                     "totals": {
-                                        "marketing_fee": {
+                                        "inclusive": {
                                             "billable_currency": {
-                                                "value": "4.74",
+                                                "value": "523.97",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "4.74",
+                                                "value": "523.97",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "433.66",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "433.66",
                                                 "currency": "USD"
                                             }
                                         },
@@ -1294,16 +1307,6 @@ RESPONSE: {
                                                 "currency": "USD"
                                             }
                                         },
-                                        "inclusive": {
-                                            "billable_currency": {
-                                                "value": "523.97",
-                                                "currency": "USD"
-                                            },
-                                            "request_currency": {
-                                                "value": "523.97",
-                                                "currency": "USD"
-                                            }
-                                        },
                                         "gross_profit": {
                                             "billable_currency": {
                                                 "value": "94.86",
@@ -1314,13 +1317,13 @@ RESPONSE: {
                                                 "currency": "USD"
                                             }
                                         },
-                                        "exclusive": {
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "433.66",
+                                                "value": "4.74",
                                                 "currency": "USD"
                                             },
                                             "request_currency": {
-                                                "value": "433.66",
+                                                "value": "4.74",
                                                 "currency": "USD"
                                             }
                                         }
@@ -1340,14 +1343,14 @@ RESPONSE: {
             "links": {
                 "additional_rates": {
                     "method": "GET",
-                    "href": "\/v3\/properties\/19381112\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQlSVwRbAgEBVkldVwlcHQIECAQVCAACVxpVUQVbUlFQUgEHVgtARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFMUVxMQRlpYVxc5RgdHRgheCGtaUA9WVldQAFdUUBwAU1dSGAdcCg9PVVYBXRVXDQlWAgIHCgoEAQceQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMODVBXUlFRXlZLC1ddARlXAlZaGl4AUVYUXQZUAVNcA1RUCAABQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMUFcIHhAHW1FAOVEKRFgQDggIVAwSXg0JFlJbPQ1cXEEWAlNbUUFWEAQGa0JZCF1YB1ICC08JUEsKCWEEWh1VcFYAEAolVgVKClENVgsODF0DPkJTCg1FXBAJFAVZR1pCRUppUF9RUl9hNhJRAEZRVQgEDFFRFFoNVVVeUQgFAlQEARpRBE4KDUIRVUpGD1wUahVDWF8MXwZsX1BbBVQADgYHFlZGFkVdCAFNXGVgfUdUUBBTBEwIWwZtVw4CXFtQXlhWEwFcUAJaCUFHCQBRAgNPUgFPUAESIQ1UVlhKRlpfAFIODwtZBQ0="
+                    "href": "\/v3\/properties\/19381112\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQlWAwcAAQEAAklQCwlUHQIHCQQVUlEBURpXBFIBA1BXVgtUAlxARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFMUVxMQRlpYVxc5RgdHRgheCGtaUA9UUVQABgBaWhxWA1IHGAddVg5PD1BQXBVTUF9VUFFWWwwDVgweQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMOB1EFVAwDVgBLCFJUUBlXVFBUGgQCXwEUVAdSUlcOUgAACwAFQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMUFcIHhAHW1FAOVEKRFgQDggIVAwSXg0JFlJbPQ1cXEEWAlNbUUFWEAQGa0JZCF1YB1ICC08JUUsJDWEFUB1VcFIAEAolVwVKCFMNUQEBCFACPkJTCg1FXBAJFAVZR1pCRUppUF9RUl9hNhJRAEZRVQgEDFFRFFoNVVVeUQgFAlQEARpRBE4KDUIRVUpGD1wUahVDWF8MXwZsX1BbBVQADgYHFlZGFkVdCAFNXGVgfUdUUBBTBEwIWwZtVw4CXFtQXlhWEwFcUAJaCUFHCQBRAgNPUgFPUAESIQ1UVlhKRlpfBVEHCQxWAgkDBA=="
                 },
                 "recommendations": {
                     "method": "GET",
-                    "href": "\/v3\/properties\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQlSVwRbAgEBVkldVwlcHQIECAQVCAACVxpVUQVbUlFQUgEHVgtARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFMUVxMQRlpYVxc5RgdHRgheCGtaUA9WVldQAFdUUBwAU1dSGAdcCg9PVVYBXRVXDQlWAgIHCgoEAQceQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMODVBXUlFRXlZLC1ddARlXAlZaGl4AUVYUXQZUAVNcA1RUCAABQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMU1IeSwIKUkdsA1oSW0MNDwsAXxZbCwoSB1toDQxeSR5XAFhQRlJDAQU9QF9dAAVXBVACFFIPS1UJbQUNRgsnAVUWBnhRUhpXDF0EXgsDAVNvQgJcDxVUS18SUQlDXEBETmxVXFRQCjdnQ1FVEV9cDAQNAVBDUVEAU11cVlsKAFYEHgdWHlEBEhQARkxcBEs5RRdeUVAJVjxaUglQA10BAAQVU0BBFlJWBRsJNGN3HwxYQwldFVEPUj5RXAcNXFBZD1VAVgpRVgpeE0AOBgJTAhxSVRtRUxdGBwNUR1ZXUFI9RxZZSV0TQEBsXQIICAADWgQJAAFFd1xVB1lHEF5YVgJVUVQDWFUBVw=="
+                    "href": "\/v3\/properties\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQlWAwcAAQEAAklQCwlUHQIHCQQVUlEBURpXBFIBA1BXVgtUAlxARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFMUVxMQRlpYVxc5RgdHRgheCGtaUA9UUVQABgBaWhxWA1IHGAddVg5PD1BQXBVTUF9VUFFWWwwDVgweQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMOB1EFVAwDVgBLCFJUUBlXVFBUGgQCXwEUVAdSUlcOUgAACwAFQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMU1IeSwIKUkdsA1oSW0MNDwsAXxZbCwoSB1toDQxeSR5XAFhQRlJDAQU9QF9dAAVXBVACFFIOS1YNbQQHRgsnBVUWBnhQUhpVDl0DVAQHDFJvQgJcDxVUS18SUQlDXEBETmxVXFRQCjdnQ1FVEV9cDAQNAVBDUVEAU11cVlsKAFYEHgdWHlEBEhQARkxcBEs5RRdeUVAJVjxaUglQA10BAAQVU0BBFlJWBRsJNGN3HwxYQwldFVEPUj5RXAcNXFBZD1VAVgpRVgpeE0AOBgJTAhxSVRtRUxdGBwNUR1ZXUFI9RxZZSV0TQEBsXQIICAADWgQJAAFFd1xVB1lHEF5YVwFTUVUGUVMJ"
                 }
             },
-            "score": 400
+            "score": 401
         }
     ],
     "response": {
