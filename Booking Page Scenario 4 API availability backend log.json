@@ -1,8 +1,8 @@
 REQUEST: {
-    "URL": "https:\/\/test.ean.com\/v3\/properties\/availability?checkin=2022-07-29&checkout=2022-07-30&property_id%5B0%5D=11775754&currency=USD&language=en-US&country_code=US&occupancy%5B0%5D=2&sales_channel=website&sales_environment=hotel_only&rate_plan_count=10&rate_option=net_rates&includes=details&partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&property_id=11775754&occupancy=2",
+    "URL": "https:\/\/test.ean.com\/v3\/properties\/availability?checkin=2022-07-29&checkout=2022-07-30&property_id%5B0%5D=11775754&currency=USD&language=en-US&country_code=US&occupancy%5B0%5D=1&sales_channel=website&sales_environment=hotel_only&rate_plan_count=10&rate_option=net_rates&includes=details&partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&property_id=11775754&occupancy=1",
     "method": "get",
     "headers": {
-        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=228e0cd92431f1cc19b5712a8bee7f7e9cf34fb10bc79231f615717bf802645b05519d6195fa982009b99005f3321a7b26d187b1275a87a6a05aadcdc8a12525,timestamp=1656943032",
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=1d539d67c35be168e5f758d74dec76c119e2a221c294aa2a1c1789e4dcc434d5c5a550f5e583142ca341ab760b456c9ad7791f424d5b4f7943c5ea2fc49150f2,timestamp=1657004970",
         "Accept": "application\/json",
         "Accept-Encoding": "gzip, deflate",
         "Customer-Ip": "5.5.5.5",
@@ -12,7 +12,7 @@ REQUEST: {
 }
 
 RESPONSE:
-URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout=2022-07-30&property_id%5B0%5D=11775754&currency=USD&language=en-US&country_code=US&occupancy%5B0%5D=2&sales_channel=website&sales_environment=hotel_only&rate_plan_count=10&rate_option=net_rates&includes=details&partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&property_id=11775754&occupancy=2
+URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout=2022-07-30&property_id%5B0%5D=11775754&currency=USD&language=en-US&country_code=US&occupancy%5B0%5D=1&sales_channel=website&sales_environment=hotel_only&rate_plan_count=10&rate_option=net_rates&includes=details&partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&property_id=11775754&occupancy=1
 {
     "headers": {},
     "body": [
@@ -53,7 +53,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPBwACV1VVCkxdAQdaTAwEBFAfVlEFARhWAlxQBVICV1FTAFIVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8ADFxSVFdeHARWAVUdUFMBUx5dA1ECSFEFV1cNVQUBVFNTDBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kBVUYDcVICSwsDVg1SWwBWVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQFUBgMMCV8KCQ=="
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApdA1YHVFFVXUwIAwYJTAxXAFIfVVJSBxhQA1JVAFYNAgMBVg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV4BDQtRVFYPHAJWBQYdUAVQXB5dVAVVSFUIA1JdVgIBXVNTARJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQRtVQMTV3kEW0YDcVAASwsMVQJXVwRWUT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAwBSBgADCFAMAA=="
                                 }
                             },
                             "bed_groups": {
@@ -63,7 +63,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305850?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVU1UeVVLYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFXDQABAAcCB0sDBFVbSAEDV1MVXQAAChoKA1BWUwFUAgYCV1CAMnwHUQoLGVUEHVEFZwZXXwYPXAdUFwIOUg0BXQsEVDmKMmFGVkiOg0o="
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305850?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUFAeV1HYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFcAVIFVgdVUktTBAQOSAEEAFIVXA4GDRoEVVYGBQwBVlMFU1aAMnwHUQoLGVUEHVEEZwdTXwMBXAVWFwIBUQIEUQ8EUjmKMmFGVvaZVeU="
                                         }
                                     },
                                     "configuration": [
@@ -77,7 +77,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             },
                             "cancel_penalties": [
                                 {
-                                    "start": "2022-07-03T06:57:12.362-07:00",
+                                    "start": "2022-07-04T00:09:30.372-07:00",
                                     "end": "2022-07-29T02:00:00.000-07:00",
                                     "amount": "25.00",
                                     "currency": "THB"
@@ -96,22 +96,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.34",
-                                                "currency": "THB"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "4.69",
-                                                "currency": "THB"
-                                            },
-                                            {
                                                 "type": "base_rate",
                                                 "value": "152.24",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.34",
                                                 "currency": "THB"
                                             }
                                         ]
@@ -119,91 +114,91 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "3.14",
+                                            "value": "3.04",
                                             "currency": "THB"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.48",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.47",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.00",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0",
                                                 "currency": "THB"
-                                            }
-                                        },
-                                        "marketing_fee": {
+                                            },
                                             "request_currency": {
                                                 "value": "0.00",
                                                 "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "request_currency": {
-                                                "value": "4.83",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "171.99",
-                                                "currency": "THB"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.41",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "156.93",
+                                                "value": "152.24",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.26",
+                                                "currency": "USD"
                                             }
                                         },
-                                        "property_fees": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "0.78",
+                                                "value": "0",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "167.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.69",
+                                                "currency": "USD"
                                             }
                                         },
                                         "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.51",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "160.41",
+                                                "value": "155.62",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.36",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.77",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     }
@@ -238,7 +233,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPBwACV1VVCkxdAQdaTAwEBFAfVlEFARhWAlxQBVICV1FTAFIVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8ADFxSVFdeHARWAVUdUFMBUx5dA1ECSFEFV1cNVQUBVFNTDBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kBVUYDcVICSwsDVg1SWwBWVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQFUBgMMCV8KCQ=="
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApdA1YHVFFVXUwIAwYJTAxXAFIfVVJSBxhQA1JVAFYNAgMBVg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV4BDQtRVFYPHAJWBQYdUAVQXB5dVAVVSFUIA1JdVgIBXVNTARJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQRtVQMTV3kEW0YDcVAASwsMVQJXVwRWUT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAwBSBgADCFAMAA=="
                                 }
                             },
                             "bed_groups": {
@@ -248,7 +243,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/381383310?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVU1UeWFbYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFXDQABAAcCB0sDBFVbSAEDV1MVXQAAChoKA1BWUwFUAgYCV1CAMnwHUQoLGVUEHVEFZwZXXwYPXAdUFwIOUg0BXQsEVDmKMmFGVkl1agI="
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/381383310?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUFMeUFTYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFcAVIFVgdVUktTBAQOSAEEAFIVXA4GDRoEVVYGBQwBVlMFU1aAMnwHUQoLGVUEHVEEZwdTXwMBXAVWFwIBUQIEUQ8EUjmKMmFGVvNsJKk="
                                         }
                                     },
                                     "configuration": [
@@ -269,22 +264,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.34",
-                                                "currency": "THB"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "4.69",
-                                                "currency": "THB"
-                                            },
-                                            {
                                                 "type": "base_rate",
                                                 "value": "152.77",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.34",
                                                 "currency": "THB"
                                             }
                                         ]
@@ -292,91 +282,91 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "3.15",
+                                            "value": "3.06",
                                             "currency": "THB"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.48",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.47",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.00",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0",
                                                 "currency": "THB"
-                                            }
-                                        },
-                                        "marketing_fee": {
+                                            },
                                             "request_currency": {
                                                 "value": "0.00",
                                                 "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "request_currency": {
-                                                "value": "4.85",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "172.57",
-                                                "currency": "THB"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.43",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "157.46",
+                                                "value": "152.77",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.28",
+                                                "currency": "USD"
                                             }
                                         },
-                                        "property_fees": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "0.78",
+                                                "value": "0",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "167.88",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.70",
+                                                "currency": "USD"
                                             }
                                         },
                                         "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.52",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "160.95",
+                                                "value": "156.17",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.37",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.77",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     }
@@ -411,7 +401,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBZBFQCBFYAFAUJVAAVVV1QBExQAwBQH1YFC1NWBVRWBQNXABJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVMAXFsGAFMVBgZWVRkEBQcCSAsEAVRJUVAGVVYOVwQFBwFXHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDWUIVhEFJQ0DR1BxAVEeVg8DWANcUQNQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlXAgtcBA8FDFYK"
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVJdUlEBAFZXFFALVVMVVQ5UBkxTAFdWH1AEBVZTAVsDV1EBXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODFIBC1gGAQIVAAZSBhkEU1YNSAtTVQNJVV1SUAYNUAQMBwFaHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDGUJUhEFJQgNR1BxA1MeVgAAVwZQVQNWO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUBQlRBw8EAF4I"
                                 }
                             },
                             "bed_groups": {
@@ -421,7 +411,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276358144?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZRS1cAgWI5izAwlTBisDY59DUyrGE1xjdkzDVCC1xQVgZRUwVOBQRQBBkNB1NTHFkPUwUbAFEBUQdbBwoHBVFT0TYsAlIHUxUJA0gDBDUAAA1RUgkJVBhVDgYAUg0FVA5u2GEyRlB-IbHE"
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276358144?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZRS1UEgWI5izAwlTBisDY59DUyrGE1xjdkzDVCAFACUlBRBFBOVQQBURkNAARSHFgBVQIbDgcHAVFWUl5SAlVV0TYsAlIHUxUJA0gDBTUBBA1UXAkLVhhVAQUPVwEBVAhu2GEyRlDND40E"
                                         }
                                     },
                                     "configuration": [
@@ -435,7 +425,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             },
                             "cancel_penalties": [
                                 {
-                                    "start": "2022-07-03T06:57:12.362-07:00",
+                                    "start": "2022-07-04T00:09:30.372-07:00",
                                     "end": "2022-07-29T02:00:00.000-07:00",
                                     "amount": "0.70",
                                     "currency": "USD"
@@ -454,22 +444,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.27",
-                                                "currency": "USD"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "0.13",
-                                                "currency": "USD"
-                                            },
-                                            {
                                                 "type": "base_rate",
-                                                "value": "4.70",
+                                                "value": "4.69",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.26",
                                                 "currency": "USD"
                                             }
                                         ]
@@ -477,80 +462,80 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "0.10",
+                                            "value": "0.09",
                                             "currency": "USD"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.56",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.54",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.1",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.1",
                                                 "currency": "USD"
-                                            }
-                                        },
-                                        "marketing_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
                                             },
-                                            "billable_currency": {
-                                                "value": "0.01",
+                                            "request_currency": {
+                                                "value": "0.1",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.83",
+                                            "billable_currency": {
+                                                "value": "4.69",
                                                 "currency": "USD"
                                             },
+                                            "request_currency": {
+                                                "value": "4.69",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "4.83",
+                                                "value": "0",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "5.04",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "5.04",
                                                 "currency": "USD"
                                             }
                                         },
                                         "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.84",
+                                                "currency": "THB"
+                                            },
                                             "request_currency": {
                                                 "value": "0.03",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.86",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "inclusive": {
-                                            "request_currency": {
-                                                "value": "5.20",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "5.20",
                                                 "currency": "USD"
                                             }
                                         }
@@ -584,7 +569,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPBwACV1VVCkxdAQdaTAwEBFAfVlEFARhWAlxQBVICV1FTAFIVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8ADFxSVFdeHARWAVUdUFMBUx5dA1ECSFEFV1cNVQUBVFNTDBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kBVUYDcVICSwsDVg1SWwBWVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQFUBgMMCV8KCQ=="
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApdA1YHVFFVXUwIAwYJTAxXAFIfVVJSBxhQA1JVAFYNAgMBVg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV4BDQtRVFYPHAJWBQYdUAVQXB5dVAVVSFUIA1JdVgIBXVNTARJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQRtVQMTV3kEW0YDcVAASwsMVQJXVwRWUT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAwBSBgADCFAMAA=="
                                 }
                             },
                             "bed_groups": {
@@ -594,7 +579,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlAeWVPYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFXDQABAAcCB0sDBFVbSAEDV1MVXQAAChoKA1BWUwFUAgYCV1CAMnwHUQoLGVUEHVEFZwZXXwYPXAdUFwIOUg0BXQsEVDmKMmFGVqL6BqY="
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlQeUVPYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFcAVIFVgdVUktTBAQOSAEEAFIVXA4GDRoEVVYGBQwBVlMFU1aAMnwHUQoLGVUEHVEEZwdTXwMBXAVWFwIBUQIEUQ8EUjmKMmFGVoaU-U4="
                                         }
                                     },
                                     "configuration": [
@@ -615,22 +600,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.37",
-                                                "currency": "THB"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "4.69",
-                                                "currency": "THB"
-                                            },
-                                            {
                                                 "type": "base_rate",
                                                 "value": "167.30",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.35",
                                                 "currency": "THB"
                                             }
                                         ]
@@ -638,81 +618,81 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "3.44",
+                                            "value": "3.35",
                                             "currency": "THB"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.53",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.51",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.00",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0",
                                                 "currency": "THB"
-                                            }
-                                        },
-                                        "marketing_fee": {
+                                            },
                                             "request_currency": {
                                                 "value": "0.00",
                                                 "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0",
-                                                "currency": "THB"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.83",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "171.99",
+                                                "value": "167.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.69",
+                                                "currency": "USD"
                                             }
                                         },
-                                        "property_fees": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "0.83",
+                                                "value": "0",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
                                             }
                                         },
                                         "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.94",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "175.80",
+                                                "value": "171.00",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.79",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.81",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     }
@@ -790,7 +770,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBZBFQCBFYAFAUJVAAVVV1QBExQAwBQH1YFC1NWBVRWBQNXABJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVMAXFsGAFMVBgZWVRkEBQcCSAsEAVRJUVAGVVYOVwQFBwFXHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDWUIVhEFJQ0DR1BxAVEeVg8DWANcUQNQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlXAgtcBA8FDFYK"
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVJdUlEBAFZXFFALVVMVVQ5UBkxTAFdWH1AEBVZTAVsDV1EBXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODFIBC1gGAQIVAAZSBhkEU1YNSAtTVQNJVV1SUAYNUAQMBwFaHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDGUJUhEFJQgNR1BxA1MeVgAAVwZQVQNWO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUBQlRBw8EAF4I"
                                 }
                             },
                             "bed_groups": {
@@ -800,7 +780,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305850?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1IEgWI5izAwlTBisDY59DUyrGE1xjdkzDVCC1xQVgZRUwVOBQRQBBkNB1NTHFkPUwUbAFEBUQdbBwoHBVFT0TYsAlIHUxUJA0gDBDUAAA1RUgkJVBhVDgYAUg0FVA5u2GEyRlDTLoar"
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305850?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1AJgWI5izAwlTBisDY59DUyrGE1xjdkzDVCAFACUlBRBFBOVQQBURkNAARSHFgBVQIbDgcHAVFWUl5SAlVV0TYsAlIHUxUJA0gDBTUBBA1UXAkLVhhVAQUPVwEBVAhu2GEyRlBTiay9"
                                         }
                                     },
                                     "configuration": [
@@ -814,7 +794,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             },
                             "cancel_penalties": [
                                 {
-                                    "start": "2022-07-03T06:57:12.362-07:00",
+                                    "start": "2022-07-04T00:09:30.372-07:00",
                                     "end": "2022-07-29T02:00:00.000-07:00",
                                     "amount": "0.70",
                                     "currency": "USD"
@@ -833,22 +813,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.24",
-                                                "currency": "USD"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "0.13",
-                                                "currency": "USD"
-                                            },
-                                            {
                                                 "type": "base_rate",
-                                                "value": "4.28",
+                                                "value": "4.27",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.23",
                                                 "currency": "USD"
                                             }
                                         ]
@@ -861,85 +836,85 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.51",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.49",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
+                                            "billable_currency": {
                                                 "value": "0.09",
                                                 "currency": "USD"
                                             },
-                                            "billable_currency": {
+                                            "request_currency": {
                                                 "value": "0.09",
                                                 "currency": "USD"
                                             }
                                         },
-                                        "marketing_fee": {
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "4.27",
+                                                "currency": "USD"
+                                            },
                                             "request_currency": {
+                                                "value": "4.27",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
                                                 "value": "0",
                                                 "currency": "USD"
                                             },
-                                            "billable_currency": {
+                                            "request_currency": {
                                                 "value": "0",
                                                 "currency": "USD"
                                             }
                                         },
                                         "strikethrough": {
-                                            "request_currency": {
-                                                "value": "4.83",
+                                            "billable_currency": {
+                                                "value": "4.69",
                                                 "currency": "USD"
                                             },
-                                            "billable_currency": {
-                                                "value": "4.83",
+                                            "request_currency": {
+                                                "value": "4.69",
                                                 "currency": "USD"
                                             }
                                         },
-                                        "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.41",
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "4.59",
                                                 "currency": "USD"
                                             },
-                                            "billable_currency": {
-                                                "value": "4.41",
+                                            "request_currency": {
+                                                "value": "4.59",
                                                 "currency": "USD"
                                             }
                                         },
                                         "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.79",
+                                                "currency": "THB"
+                                            },
                                             "request_currency": {
                                                 "value": "0.02",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.81",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.74",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "4.74",
                                                 "currency": "USD"
                                             }
                                         }
@@ -1007,7 +982,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPBwACV1VVCkxdAQdaTAwEBFAfVlEFARhWAlxQBVICV1FTAFIVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8ADFxSVFdeHARWAVUdUFMBUx5dA1ECSFEFV1cNVQUBVFNTDBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kBVUYDcVICSwsDVg1SWwBWVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQFUBgMMCV8KCQ=="
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApdA1YHVFFVXUwIAwYJTAxXAFIfVVJSBxhQA1JVAFYNAgMBVg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV4BDQtRVFYPHAJWBQYdUAVQXB5dVAVVSFUIA1JdVgIBXVNTARJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQRtVQMTV3kEW0YDcVAASwsMVQJXVwRWUT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAwBSBgADCFAMAA=="
                                 }
                             },
                             "bed_groups": {
@@ -1017,7 +992,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321197?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVU1UeVVLYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFXDQABAAcCB0sDBFVbSAEDV1MVXQAAChoKA1BWUwFUAgYCV1CAMnwHUQoLGVUEHVEFZwZXXwYPXAdUFwIOUg0BXQsEVDmKMmFGVkiOg0o="
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321197?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUFAeV1HYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFcAVIFVgdVUktTBAQOSAEEAFIVXA4GDRoEVVYGBQwBVlMFU1aAMnwHUQoLGVUEHVEEZwdTXwMBXAVWFwIBUQIEUQ8EUjmKMmFGVvaZVeU="
                                         }
                                     },
                                     "configuration": [
@@ -1038,22 +1013,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.34",
-                                                "currency": "THB"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "4.69",
-                                                "currency": "THB"
-                                            },
-                                            {
                                                 "type": "base_rate",
                                                 "value": "152.24",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.34",
                                                 "currency": "THB"
                                             }
                                         ]
@@ -1061,91 +1031,91 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "3.14",
+                                            "value": "3.04",
                                             "currency": "THB"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.48",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.47",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.00",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0",
                                                 "currency": "THB"
-                                            }
-                                        },
-                                        "marketing_fee": {
+                                            },
                                             "request_currency": {
                                                 "value": "0.00",
                                                 "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "request_currency": {
-                                                "value": "4.83",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "171.99",
-                                                "currency": "THB"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.41",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "156.93",
+                                                "value": "152.24",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.26",
+                                                "currency": "USD"
                                             }
                                         },
-                                        "property_fees": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "0.78",
+                                                "value": "0",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "167.30",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.69",
+                                                "currency": "USD"
                                             }
                                         },
                                         "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.51",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "160.41",
+                                                "value": "155.62",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.36",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.77",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     }
@@ -1184,7 +1154,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBZBFQCBFYAFAUJVAAVVV1QBExQAwBQH1YFC1NWBVRWBQNXABJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVMAXFsGAFMVBgZWVRkEBQcCSAsEAVRJUVAGVVYOVwQFBwFXHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDWUIVhEFJQ0DR1BxAVEeVg8DWANcUQNQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlXAgtcBA8FDFYK"
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVJdUlEBAFZXFFALVVMVVQ5UBkxTAFdWH1AEBVZTAVsDV1EBXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODFIBC1gGAQIVAAZSBhkEU1YNSAtTVQNJVV1SUAYNUAQMBwFaHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDGUJUhEFJQgNR1BxA1MeVgAAVwZQVQNWO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUBQlRBw8EAF4I"
                                 }
                             },
                             "bed_groups": {
@@ -1194,7 +1164,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZRS1cAgWI5izAwlTBisDY59DUyrGE1xjdkzDVCC1xQVgZRUwVOBQRQBBkNB1NTHFkPUwUbAFEBUQdbBwoHBVFT0TYsAlIHUxUJA0gDBDUAAA1RUgkJVBhVDgYAUg0FVA5u2GEyRlB-IbHE"
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321198?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZRS1UEgWI5izAwlTBisDY59DUyrGE1xjdkzDVCAFACUlBRBFBOVQQBURkNAARSHFgBVQIbDgcHAVFWUl5SAlVV0TYsAlIHUxUJA0gDBTUBBA1UXAkLVhhVAQUPVwEBVAhu2GEyRlDND40E"
                                         }
                                     },
                                     "configuration": [
@@ -1215,22 +1185,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.27",
-                                                "currency": "USD"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "0.13",
-                                                "currency": "USD"
-                                            },
-                                            {
                                                 "type": "base_rate",
-                                                "value": "4.70",
+                                                "value": "4.69",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.26",
                                                 "currency": "USD"
                                             }
                                         ]
@@ -1238,80 +1203,80 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "0.10",
+                                            "value": "0.09",
                                             "currency": "USD"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.56",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.54",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.1",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.1",
                                                 "currency": "USD"
-                                            }
-                                        },
-                                        "marketing_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
                                             },
-                                            "billable_currency": {
-                                                "value": "0.01",
+                                            "request_currency": {
+                                                "value": "0.1",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.83",
+                                            "billable_currency": {
+                                                "value": "4.69",
                                                 "currency": "USD"
                                             },
+                                            "request_currency": {
+                                                "value": "4.69",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "4.83",
+                                                "value": "0",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "5.04",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "5.04",
                                                 "currency": "USD"
                                             }
                                         },
                                         "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.84",
+                                                "currency": "THB"
+                                            },
                                             "request_currency": {
                                                 "value": "0.03",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.86",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "inclusive": {
-                                            "request_currency": {
-                                                "value": "5.20",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "5.20",
                                                 "currency": "USD"
                                             }
                                         }
@@ -1382,7 +1347,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPBwACV1VVCkxdAQdaTAwEBFAfVlEFARhWAlxQBVICV1FTAFIVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8ADFxSVFdeHARWAVUdUFMBUx5dA1ECSFEFV1cNVQUBVFNTDBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kBVUYDcVICSwsDVg1SWwBWVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQFUBgMMCV8KCQ=="
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApdA1YHVFFVXUwIAwYJTAxXAFIfVVJSBxhQA1JVAFYNAgMBVg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV4BDQtRVFYPHAJWBQYdUAVQXB5dVAVVSFUIA1JdVgIBXVNTARJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQRtVQMTV3kEW0YDcVAASwsMVQJXVwRWUT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAwBSBgADCFAMAA=="
                                 }
                             },
                             "bed_groups": {
@@ -1392,7 +1357,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305853?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlAeWVPYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFXDQABAAcCB0sDBFVbSAEDV1MVXQAAChoKA1BWUwFUAgYCV1CAMnwHUQoLGVUEHVEFZwZXXwYPXAdUFwIOUg0BXQsEVDmKMmFGVqL6BqY="
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305853?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlQeUVPYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFcAVIFVgdVUktTBAQOSAEEAFIVXA4GDRoEVVYGBQwBVlMFU1aAMnwHUQoLGVUEHVEEZwdTXwMBXAVWFwIBUQIEUQ8EUjmKMmFGVoaU-U4="
                                         }
                                     },
                                     "configuration": [
@@ -1413,22 +1378,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.37",
-                                                "currency": "THB"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "4.69",
-                                                "currency": "THB"
-                                            },
-                                            {
                                                 "type": "base_rate",
                                                 "value": "167.30",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.35",
                                                 "currency": "THB"
                                             }
                                         ]
@@ -1436,81 +1396,81 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "3.44",
+                                            "value": "3.35",
                                             "currency": "THB"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.53",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.51",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.00",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0",
                                                 "currency": "THB"
-                                            }
-                                        },
-                                        "marketing_fee": {
+                                            },
                                             "request_currency": {
                                                 "value": "0.00",
                                                 "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0",
-                                                "currency": "THB"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.83",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "171.99",
+                                                "value": "167.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.69",
+                                                "currency": "USD"
                                             }
                                         },
-                                        "property_fees": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "0.83",
+                                                "value": "0",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
                                             }
                                         },
                                         "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.94",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "175.80",
+                                                "value": "171.00",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.79",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.81",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     }
@@ -1518,12 +1478,12 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             },
                             "deposits": [
                                 {
-                                    "value": "8.79",
-                                    "due": "2022-07-04",
+                                    "value": "8.55",
+                                    "due": "2022-07-05",
                                     "currency": "THB"
                                 },
                                 {
-                                    "value": "167.01",
+                                    "value": "162.45",
                                     "due": "2022-07-14",
                                     "currency": "THB"
                                 }
@@ -1551,7 +1511,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBZBFQCBFYAFAUJVAAVVV1QBExQAwBQH1YFC1NWBVRWBQNXABJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVMAXFsGAFMVBgZWVRkEBQcCSAsEAVRJUVAGVVYOVwQFBwFXHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDWUIVhEFJQ0DR1BxAVEeVg8DWANcUQNQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlXAgtcBA8FDFYK"
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVJdUlEBAFZXFFALVVMVVQ5UBkxTAFdWH1AEBVZTAVsDV1EBXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODFIBC1gGAQIVAAZSBhkEU1YNSAtTVQNJVV1SUAYNUAQMBwFaHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDGUJUhEFJQgNR1BxA1MeVgAAVwZQVQNWO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUBQlRBw8EAF4I"
                                 }
                             },
                             "bed_groups": {
@@ -1561,7 +1521,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/381383310?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1IGgWI5izAwlTBisDY59DUyrGE1xjdkzDVCC1xQVgZRUwVOBQRQBBkNB1NTHFkPUwUbAFEBUQdbBwoHBVFT0TYsAlIHUxUJA0gDBDUAAA1RUgkJVBhVDgYAUg0FVA5u2GEyRlDilYNu"
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/381383310?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1MBgWI5izAwlTBisDY59DUyrGE1xjdkzDVCAFACUlBRBFBOVQQBURkNAARSHFgBVQIbDgcHAVFWUl5SAlVV0TYsAlIHUxUJA0gDBTUBBA1UXAkLVhhVAQUPVwEBVAhu2GEyRlALxfAO"
                                         }
                                     },
                                     "configuration": [
@@ -1582,22 +1542,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
+                                                "type": "base_rate",
+                                                "value": "4.28",
+                                                "currency": "USD"
+                                            },
+                                            {
                                                 "type": "tax_and_service_fee",
                                                 "value": "0.24",
-                                                "currency": "USD"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "0.13",
-                                                "currency": "USD"
-                                            },
-                                            {
-                                                "type": "base_rate",
-                                                "value": "4.30",
                                                 "currency": "USD"
                                             }
                                         ]
@@ -1610,85 +1565,85 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.51",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.49",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.1",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.1",
                                                 "currency": "USD"
-                                            }
-                                        },
-                                        "marketing_fee": {
-                                            "request_currency": {
-                                                "value": "0",
-                                                "currency": "USD"
                                             },
-                                            "billable_currency": {
-                                                "value": "0",
-                                                "currency": "USD"
-                                            }
-                                        },
-                                        "strikethrough": {
                                             "request_currency": {
-                                                "value": "4.85",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "4.85",
+                                                "value": "0.1",
                                                 "currency": "USD"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.43",
+                                            "billable_currency": {
+                                                "value": "4.28",
                                                 "currency": "USD"
                                             },
+                                            "request_currency": {
+                                                "value": "4.28",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "4.43",
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "4.70",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.70",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "4.61",
+                                                "currency": "USD"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.61",
                                                 "currency": "USD"
                                             }
                                         },
                                         "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.79",
+                                                "currency": "THB"
+                                            },
                                             "request_currency": {
                                                 "value": "0.02",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.81",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.76",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "4.76",
                                                 "currency": "USD"
                                             }
                                         }
@@ -1724,7 +1679,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPBwACV1VVCkxdAQdaTAwEBFAfVlEFARhWAlxQBVICV1FTAFIVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8ADFxSVFdeHARWAVUdUFMBUx5dA1ECSFEFV1cNVQUBVFNTDBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kBVUYDcVICSwsDVg1SWwBWVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQFUBgMMCV8KCQ=="
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApdA1YHVFFVXUwIAwYJTAxXAFIfVVJSBxhQA1JVAFYNAgMBVg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV4BDQtRVFYPHAJWBQYdUAVQXB5dVAVVSFUIA1JdVgIBXVNTARJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQRtVQMTV3kEW0YDcVAASwsMVQJXVwRWUT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAwBSBgADCFAMAA=="
                                 }
                             },
                             "bed_groups": {
@@ -1734,7 +1689,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276358144?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlAeWVPYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFXDQABAAcCB0sDBFVbSAEDV1MVXQAAChoKA1BWUwFUAgYCV1CAMnwHUQoLGVUEHVEFZwZXXwYPXAdUFwIOUg0BXQsEVDmKMmFGVqL6BqY="
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276358144?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUlQeUVPYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFcAVIFVgdVUktTBAQOSAEEAFIVXA4GDRoEVVYGBQwBVlMFU1aAMnwHUQoLGVUEHVEEZwdTXwMBXAVWFwIBUQIEUQ8EUjmKMmFGVoaU-U4="
                                         }
                                     },
                                     "configuration": [
@@ -1748,7 +1703,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             },
                             "cancel_penalties": [
                                 {
-                                    "start": "2022-07-03T06:57:12.363-07:00",
+                                    "start": "2022-07-04T00:09:30.373-07:00",
                                     "end": "2022-07-29T02:00:00.000-07:00",
                                     "amount": "25.00",
                                     "currency": "THB"
@@ -1767,22 +1722,17 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.37",
-                                                "currency": "THB"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "4.69",
-                                                "currency": "THB"
-                                            },
-                                            {
                                                 "type": "base_rate",
                                                 "value": "167.30",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.35",
                                                 "currency": "THB"
                                             }
                                         ]
@@ -1790,81 +1740,81 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "3.44",
+                                            "value": "3.35",
                                             "currency": "THB"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.53",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.51",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.00",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0",
                                                 "currency": "THB"
-                                            }
-                                        },
-                                        "marketing_fee": {
+                                            },
                                             "request_currency": {
                                                 "value": "0.00",
                                                 "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0",
-                                                "currency": "THB"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.83",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "171.99",
+                                                "value": "167.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.69",
+                                                "currency": "USD"
                                             }
                                         },
-                                        "property_fees": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "0.83",
+                                                "value": "0",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
                                             }
                                         },
                                         "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.94",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "175.80",
+                                                "value": "171.00",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.79",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.81",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     }
@@ -1925,7 +1875,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWQBZBFQCBFYAFAUJVAAVVV1QBExQAwBQH1YFC1NWBVRWBQNXABJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODVMAXFsGAFMVBgZWVRkEBQcCSAsEAVRJUVAGVVYOVwQFBwFXHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDWUIVhEFJQ0DR1BxAVEeVg8DWANcUQNQO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlXAgtcBA8FDFYK"
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBccWBiJH0vdENSQkoRXA5WRGsVVhdKX19db1xXWVJdUlEBAFZXFFALVVMVVQ5UBkxTAFdWH1AEBVZTAVsDV1EBXxJQQUEVX1wHEGkLEwwBTFAfAB0MFUQHRBdfVlY-XV0ODFIBC1gGAQIVAAZSBhkEU1YNSAtTVQNJVV1SUAYNUAQMBwFaHkdXEUVQUV5GB0UMAhoVUAoUEkcWQkUPXgNDOVtJAEcARQhWAmhbV1NXCV4jcH0qczwRBFFcVRBUFV1daxFaXQQMAQdWVx4IURtWDGUJUhEFJQgNR1BxA1MeVgAAVwZQVQNWO0NQXUZWEEtBPQdfBV0MNzEeXQIWXlAOVwxRBhcBCQMGWgsIXldWUAUaUlUfAgEWFVdHQF1SFj4SRllWDFQAagtUBFQJX14PDRNXFkoUVAhQTAQxMHBCWgxRBVhZTBEIVlQHUUwBDk8HAkBFR0RGW1pTQW9cU18GURJ3CVNbWkZAWVlUBQlRBw8EAF4I"
                                 }
                             },
                             "bed_groups": {
@@ -1935,7 +1885,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321197?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1IEgWI5izAwlTBisDY59DUyrGE1xjdkzDVCC1xQVgZRUwVOBQRQBBkNB1NTHFkPUwUbAFEBUQdbBwoHBVFT0TYsAlIHUxUJA0gDBDUAAA1RUgkJVBhVDgYAUg0FVA5u2GEyRlDTLoar"
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276321197?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzZQS1AJgWI5izAwlTBisDY59DUyrGE1xjdkzDVCAFACUlBRBFBOVQQBURkNAARSHFgBVQIbDgcHAVFWUl5SAlVV0TYsAlIHUxUJA0gDBTUBBA1UXAkLVhhVAQUPVwEBVAhu2GEyRlBTiay9"
                                         }
                                     },
                                     "configuration": [
@@ -1951,27 +1901,22 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                 {
                                     "start": "2022-07-26T10:00:00.000-07:00",
                                     "end": "2022-07-29T10:00:00.000-07:00",
-                                    "amount": "2.13",
+                                    "amount": "2.12",
                                     "currency": "USD"
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.24",
-                                                "currency": "USD"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "0.13",
-                                                "currency": "USD"
-                                            },
-                                            {
                                                 "type": "base_rate",
-                                                "value": "4.28",
+                                                "value": "4.27",
+                                                "currency": "USD"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.23",
                                                 "currency": "USD"
                                             }
                                         ]
@@ -1984,85 +1929,85 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.51",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.49",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
+                                            "billable_currency": {
                                                 "value": "0.09",
                                                 "currency": "USD"
                                             },
-                                            "billable_currency": {
+                                            "request_currency": {
                                                 "value": "0.09",
                                                 "currency": "USD"
                                             }
                                         },
-                                        "marketing_fee": {
+                                        "exclusive": {
+                                            "billable_currency": {
+                                                "value": "4.27",
+                                                "currency": "USD"
+                                            },
                                             "request_currency": {
+                                                "value": "4.27",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "marketing_fee": {
+                                            "billable_currency": {
                                                 "value": "0",
                                                 "currency": "USD"
                                             },
-                                            "billable_currency": {
+                                            "request_currency": {
                                                 "value": "0",
                                                 "currency": "USD"
                                             }
                                         },
                                         "strikethrough": {
-                                            "request_currency": {
-                                                "value": "4.83",
+                                            "billable_currency": {
+                                                "value": "4.69",
                                                 "currency": "USD"
                                             },
-                                            "billable_currency": {
-                                                "value": "4.83",
+                                            "request_currency": {
+                                                "value": "4.69",
                                                 "currency": "USD"
                                             }
                                         },
-                                        "exclusive": {
-                                            "request_currency": {
-                                                "value": "4.41",
+                                        "inclusive": {
+                                            "billable_currency": {
+                                                "value": "4.59",
                                                 "currency": "USD"
                                             },
-                                            "billable_currency": {
-                                                "value": "4.41",
+                                            "request_currency": {
+                                                "value": "4.59",
                                                 "currency": "USD"
                                             }
                                         },
                                         "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.79",
+                                                "currency": "THB"
+                                            },
                                             "request_currency": {
                                                 "value": "0.02",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.81",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "inclusive": {
-                                            "request_currency": {
-                                                "value": "4.74",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "4.74",
                                                 "currency": "USD"
                                             }
                                         }
@@ -2122,7 +2067,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             "links": {
                                 "payment_options": {
                                     "method": "GET",
-                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVcMVwMDCwMEH1RUU1YbA1FQAR0NAFQGSAxSUgJcCAUHV1FRVh8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAAoPBwACV1VVCkxdAQdaTAwEBFAfVlEFARhWAlxQBVICV1FTAFIVV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV8ADFxSVFdeHARWAVUdUFMBUx5dA1ECSFEFV1cNVQUBVFNTDBJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQVtVAcTV3kBVUYDcVICSwsDVg1SWwBWVz8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAQFUBgMMCV8KCQ=="
+                                    "href": "\/v3\/properties\/11775754\/payment-options?token=REhZAQsABAMGQhMHUlNCF1ELUj1DVhdLBQMES1REClxLQg5cRR8WBlIBSxZdCFRpTQxRWVwABQdVC1RRHwRUAgMbA1YHAB0MDlIBSAIEVFIKBVBTAlZVUB8IVURWUAdWRDtZVWgTVgBXRgBcZGp9MXw0YTwXVEwWRwxeU0Y5QAFKRVlcXmpaAApdA1YHVFFVXUwIAwYJTAxXAFIfVVJSBxhQA1JVAFYNAgMBVg0VV0cSRF4PB0Q9CkEJV0sEGwYXBhERUhdFUFcPa1BXCV4BDQtRVFYPHAJWBQYdUAVQXB5dVAVVSFUIA1JdVgIBXVNTARJLC0JBVwYJFFQVD1NLSw0LRBIQR0UTWw9UFGtWFVATUBVRC1BpVVhWAA9fdn8hfiZuRVNXXgdHAExcUDpHWQxUDgVUVwEVVgFLCQRtVQMTV3kEW0YDcVAASwsMVQJXVwRWUT8VUVxNCk1KGztTDlxUXzdrHgYHR11XWwVcBwVEAg4AUgkPDVhUUgUFT1IFHQoJQ0ZURkdZARM9RERfA1EJUD1ZXV8PVl8BDwESAE0UQwNdVkBZNmcgHwdcA1BdVhBBWVYFUVMcCVUZAVYQQUFGR19fVkJqXgYJVwASIl5dUl5GQQlYAwBSBgADCFAMAA=="
                                 }
                             },
                             "bed_groups": {
@@ -2132,7 +2077,7 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "links": {
                                         "price_check": {
                                             "method": "GET",
-                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305852?token=F~OjogZyw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHVJUBlIDBgcCFAYEVwQbBlEHBh5UBFYGGgEEXAIEUQBaAVdTUj5BCwxQVVQDWgAVB1EDUhpVUlYOGVwAV14fVQxQAVAHAwxUUVMHVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVUVQeVlDYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFXDQABAAcCB0sDBFVbSAEDV1MVXQAAChoKA1BWUwFUAgYCV1CAMnwHUQoLGVUEHVEFZwZXXwYPXAdUFwIOUg0BXQsEVDmKMmFGVkDKgPM="
+                                            "href": "\/v3\/properties\/11775754\/rooms\/230410389\/rates\/276305852?token=F~OjogZCw0NRkyAQ9PYWUCZ202D2gCCVALS1YOFAcNITJUAVQBGAlTTgdUc2dhNXdkHQBQUFcAAgdVFFMGVlcbBgIDBB5XBwEAGgcFUgcBVQ8PUwUFDT5BCg1RAlcDW1EVAVEHARpVBAcBGVxXAwkfUQEEBAAEBAxdUVMKVDJQA10BAARBNAADVAZCYlMMVAS5OGAJo2M9Ug9VDVCoNW1REn5cXAJGdwdQRsMwSW9IFkYYQFRAWBQpCl9TIABVFx8bQF4YUkYMG3MIWl4RGERETFheFlxMSBFZBklt1jM2VwevYzRVVlMeWFfYYjDcZDWTOTWwZjWjNmKsZDTFZDbMOkFcAVIFVgdVUktTBAQOSAEEAFIVXA4GDRoEVVYGBQwBVlMFU1aAMnwHUQoLGVUEHVEEZwdTXwMBXAVWFwIBUQIEUQ8EUjmKMmFGVh925H4="
                                         }
                                     },
                                     "configuration": [
@@ -2146,29 +2091,24 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                             },
                             "cancel_penalties": [
                                 {
-                                    "start": "2022-07-03T06:57:12.363-07:00",
+                                    "start": "2022-07-04T00:09:30.373-07:00",
                                     "end": "2022-07-29T10:00:00.000-07:00",
                                     "percent": "100%",
                                     "currency": "THB"
                                 }
                             ],
                             "occupancy_pricing": {
-                                "2": {
+                                "1": {
                                     "nightly": [
                                         [
                                             {
-                                                "type": "tax_and_service_fee",
-                                                "value": "0.29",
-                                                "currency": "THB"
-                                            },
-                                            {
-                                                "type": "extra_person_fee",
-                                                "value": "4.69",
-                                                "currency": "THB"
-                                            },
-                                            {
                                                 "type": "base_rate",
                                                 "value": "133.98",
+                                                "currency": "THB"
+                                            },
+                                            {
+                                                "type": "tax_and_service_fee",
+                                                "value": "0.28",
                                                 "currency": "THB"
                                             }
                                         ]
@@ -2176,91 +2116,91 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
                                     "stay": [
                                         {
                                             "type": "tax_and_service_fee",
-                                            "value": "2.77",
+                                            "value": "2.68",
                                             "currency": "THB"
                                         }
                                     ],
                                     "fees": {
-                                        "mandatory_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0.42",
-                                                "currency": "THB"
-                                            }
-                                        },
                                         "resort_fee": {
-                                            "request_currency": {
-                                                "value": "0.01",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0.30",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "mandatory_fee": {
+                                            "billable_currency": {
+                                                "value": "0.41",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.01",
+                                                "currency": "USD"
                                             }
                                         }
                                     },
                                     "totals": {
                                         "gross_profit": {
-                                            "request_currency": {
-                                                "value": "0.00",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
                                                 "value": "0",
                                                 "currency": "THB"
-                                            }
-                                        },
-                                        "marketing_fee": {
+                                            },
                                             "request_currency": {
                                                 "value": "0.00",
                                                 "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "0",
-                                                "currency": "THB"
-                                            }
-                                        },
-                                        "strikethrough": {
-                                            "request_currency": {
-                                                "value": "4.27",
-                                                "currency": "USD"
-                                            },
-                                            "billable_currency": {
-                                                "value": "151.92",
-                                                "currency": "THB"
                                             }
                                         },
                                         "exclusive": {
-                                            "request_currency": {
-                                                "value": "3.90",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "138.67",
+                                                "value": "133.98",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "3.75",
+                                                "currency": "USD"
                                             }
                                         },
-                                        "property_fees": {
-                                            "request_currency": {
-                                                "value": "0.02",
-                                                "currency": "USD"
-                                            },
+                                        "marketing_fee": {
                                             "billable_currency": {
-                                                "value": "0.72",
+                                                "value": "0",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.00",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "strikethrough": {
+                                            "billable_currency": {
+                                                "value": "147.23",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "4.12",
+                                                "currency": "USD"
                                             }
                                         },
                                         "inclusive": {
-                                            "request_currency": {
-                                                "value": "3.98",
-                                                "currency": "USD"
-                                            },
                                             "billable_currency": {
-                                                "value": "141.73",
+                                                "value": "136.94",
                                                 "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "3.84",
+                                                "currency": "USD"
+                                            }
+                                        },
+                                        "property_fees": {
+                                            "billable_currency": {
+                                                "value": "0.71",
+                                                "currency": "THB"
+                                            },
+                                            "request_currency": {
+                                                "value": "0.02",
+                                                "currency": "USD"
                                             }
                                         }
                                     }
@@ -2279,11 +2219,11 @@ URL: https://test.ean.com/v3/properties/availability?checkin=2022-07-29&checkout
             "links": {
                 "additional_rates": {
                     "method": "GET",
-                    "href": "\/v3\/properties\/11775754\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQkHWAJaAwdUBElXUFgHHQJXXlQVCFMAARpZVVAMUF1RBlsHVV1ARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFMUVxMQRlpYVxc5RgdHRgheCGtaUA9WUVNUVFMEUBxQUgBTGAdcAgZPVVNQChUCBAAFBFYDWwlSBFMeQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMODVYBA1dTBFFLD1BRVRlXUwBVGl5QBVIUUQBXBVQOUQIHWgcGQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMUFcIHhAHW1FAOVEKRFgQDggIVAwSXg0JFlJbPQ1cXEEWAlNbUUFWEAQGa0JZCF1YB1ICC08JUUsJDWEFUB1VcFMEEAolUgZKClMDXwQPClUDPkJTCg1FXBAJFAVZR1pCRUppUF9RUl9hNhJRAEZRVQgEDFFRFFoNVVVeUQgFAlQEARpRBE4KDUIRVUpGD1wUahVDWF8MXwZsX1BbBVQADgYHFlZGFkVdCAFNXGVgfUdUUBBTBEwIWwZtVw4CXFtQXlhWEwFcUAJaCUFHCQBRAgNPUgFPUAESIQ1UVlhKRlpfBVIPAAlTBA8FAQ=="
+                    "href": "\/v3\/properties\/11775754\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQkMVFBeVQcDUUkHUAlSHQJQCVUVCV0GBhpXA1ZcBlAEUg4AUVtARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFAUVxMQRlpYVxc5RgdHRgheCGtaUA8EVQVRV1cEBxwFUAEAGAcPBgRPVlAHDBUEBQ4AAVIMDlsAUgweQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMODFcAVFRTBQBLCVBVBhlXBVFaGl4HUQUUVQ0DAAQNVgIOWgcLQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMUFcIHhAHW1FAOVEKRFgQDggIVAwSXg0JFlJbPQ1cXEEWAlNbUUFWEAQGa0JZCF1YB1ICC08JUUsJDGEEVB1VcFYKEAolUARKClwAUAEDDlUFPkJTCg1FXBAJFAVZR1pCRUppUF9RUl9hNhJRAEZRVQgEDFFRFFoNVVVeUQgFAlQEARpRBE4KDUIRVUpGD1wUahVDWF8MXwZsX1BbBVQADgYHFlZGFkVdCAFNXGVgfUdUUBBTBEwIWwZtVw4CXFtQXlhWEwFcUAJaCUFHCQBRAgNPUgFPUAESIQ1UVlhKRlpfA1UBCgxXBAoAAA=="
                 },
                 "recommendations": {
                     "method": "GET",
-                    "href": "\/v3\/properties\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQkHWAJaAwdUBElXUFgHHQJXXlQVCFMAARpZVVAMUF1RBlsHVV1ARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFMUVxMQRlpYVxc5RgdHRgheCGtaUA9WUVNUVFMEUBxQUgBTGAdcAgZPVVNQChUCBAAFBFYDWwlSBFMeQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMODVYBA1dTBFFLD1BRVRlXUwBVGl5QBVIUUQBXBVQOUQIHWgcGQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMU1IeSwIKUkdsA1oSW0MNDwsAXxZbCwoSB1toDQxeSR5XAFhQRlJDAQU9QF9dAAVXBVACFFIOS1YNbQQHRgsnBFEWBnhVURpXDlMNUQoFCVNvQgJcDxVUS18SUQlDXEBETmxVXFRQCjdnQ1FVEV9cDAQNAVBDUVEAU11cVlsKAFYEHgdWHlEBEhQARkxcBEs5RRdeUVAJVjxaUglQA10BAAQVU0BBFlJWBRsJNGN3HwxYQwldFVEPUj5RXAcNXFBZD1VAVgpRVgpeE0AOBgJTAhxSVRtRUxdGBwNUR1ZXUFI9RxZZSV0TQEBsXQIICAgHVQAPBAdFd1xVB1lHEF5YVwNcVlEEV1YM"
+                    "href": "\/v3\/properties\/availability?token=REhZAQsABAMGQhIKW0ZADFYCahJRTQoENTJ4d3F1L3codEBBUF8BEUYNVwNrFVxDSwZQWRZUEwhVFBFcXRYQQFFQUkFEWl5SaBZdAQkMVFBeVQcDUUkHUAlSHQJQCVUVCV0GBhpXA1ZcBlAEUg4AUVtARgxFUmYRShNWC0AUUgBQQllcXlRfO1VKCRVHBEIVVgJaRBJZD1sYCFAUVxMQRlpYVxc5RgdHRgheCGtaUA8EVQVRV1cEBxwFUAEAGAcPBgRPVlAHDBUEBQ4AAVIMDlsAUgweQlIPUUdvB1pVC10ADg8TAAdDCBddRUJRFkIKV1pnDVMODFcAVFRTBQBLCVBVBhlXBVFaGl4HUQUUVQ0DAAQNVgIOWgcLQw8DWV8RUQJSXlFcHTdmR0pYQABsXxFFWlgKWF1dEmkUWEVcFhJFC01GAQYNQgJADFwZElwKEhUUABFWbUNUBVdnAQtFD0wMU1IeSwIKUkdsA1oSW0MNDwsAXxZbCwoSB1toDQxeSR5XAFhQRlJDAQU9QF9dAAVXBVACFFIOS1YMbQUDRgsnAV8WBnhXUxpXAVACVAYBCVVvQgJcDxVUS18SUQlDXEBETmxVXFRQCjdnQ1FVEV9cDAQNAVBDUVEAU11cVlsKAFYEHgdWHlEBEhQARkxcBEs5RRdeUVAJVjxaUglQA10BAAQVU0BBFlJWBRsJNGN3HwxYQwldFVEPUj5RXAcNXFBZD1VAVgpRVgpeE0AOBgJTAhxSVRtRUxdGBwNUR1ZXUFI9RxZZSV0TQEBsXQIICAgHVQAPBAdFd1xVB1lHEF5YUQNWXFYGWVYBUg=="
                 }
             }
         }
