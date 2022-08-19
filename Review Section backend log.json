@@ -1,0 +1,229 @@
+REQUEST: {
+    "URL": "https:\/\/test.ean.com\/v3\/\/properties\/23396726\/guest-reviews?partner_point_of_sale=B2C_MOR_SA__HC_MOD&payment_terms=MOR&language=en-US&country_code=US",
+    "method": "get",
+    "headers": {
+        "Authorization": "EAN apikey=29i9tbvs5t8t24801f11414oap,signature=66efc1ebf096689ea3e69747c95c07162a533e96eef8894f64b1da07b956387568f8080f523837c9b42fc131629b03c78c3dd8190a97e73daa2f90461df2ad09,timestamp=1660924472",
+        "Accept": "application\/json",
+        "Accept-Encoding": "gzip, deflate",
+        "Customer-Ip": "5.5.5.5",
+        "Content-Type": "application\/json",
+        "user-agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko\/20100101 Firefox\/20.0"
+    }
+}
+RESPONSE: {
+    "headers": {},
+    "body": {
+        "verified": {
+            "recent": [
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-05-20T11:53:48Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Timothy",
+                    "trip_reason": "business",
+                    "text": "I thought the property was very clean and it was in close proximity to restaurants. "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-04-22T12:19:49Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Melanie",
+                    "trip_reason": "leisure",
+                    "text": "This property is clean and staff are excellent. We stayed there for 2 nights while travelling ( 2 adults and a child). The pool and pool area are kept very clean. There is ample parking if you are driving. Lots of restaurants within walking distance. There is a fun ring game on the patio that kept my 11 year old son entertained for hours!! I\u2019d stay here again!!"
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-04-22T05:25:48Z",
+                    "rating": "4.0",
+                    "reviewer_name": "Danny",
+                    "trip_reason": "leisure",
+                    "travel_companion": "family",
+                    "text": "The hotel was in a great area, was very clean and the staff was nice and attentive. The complimentary break was not good and did have waffles but was more a cold breakfast with not many good choices."
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "title": "Will not stay in this Motel again. Poor Service.",
+                    "date_submitted": "2022-04-20T14:33:20Z",
+                    "rating": "2.0",
+                    "reviewer_name": "roger",
+                    "text": "Check in evening time, looked coffee station. Cold coffee. Clerk informed us they don't keep coffee hot (there was cold coffee) an go to our room. Also only 2 tea bags at coffee station. Attitude of desk was \"We don't care\". A\/C units (we had 2 rooms) made loud noise that sounds like a truck reverse warning each cycle. Woke us up every cycle time, both rooms. Reported to desk in AM, manager? said \" we'll check on it\". Nothing else, never looked up from desk top. Breakfast not up to standards of other nearby motels in same area. We stayed at this motel for location. Would not stay here again even if best price which it was not. Very disappointed in the service."
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-04-09T23:50:03Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Suzanne",
+                    "trip_reason": "leisure",
+                    "travel_companion": "friends",
+                    "text": "Well maintained, friendly staff and nice rooms. Would definitely stay there again. "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-04-08T23:18:18Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Sarah",
+                    "trip_reason": "leisure",
+                    "travel_companion": "family",
+                    "text": "The facility was quite clean and staff was friendly and helpful.  Breakfast was well stocked and coffee was good.  It was nice to have a fridge and microwave in the room and the toiletries in the bathroom were very nice.  I'd stay here again. "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-04-07T04:40:47Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Leofric William",
+                    "trip_reason": "leisure",
+                    "travel_companion": "partner",
+                    "text": "All was good."
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-04-05T16:00:16Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Nicole",
+                    "trip_reason": "business",
+                    "text": "Clean rooms and comfortable bed. Worked well for my business trip. "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-04-05T13:55:08Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Kyasha",
+                    "trip_reason": "leisure",
+                    "text": "Property is very clean and feels safe. "
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "title": "Great stay!",
+                    "date_submitted": "2022-03-29T15:30:43Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Amanda",
+                    "text": "We had a great stay here! Everything was clean and in working order. All of the staff members were very friendly and helpful. I would definitely stay here again!"
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-03-19T13:05:20Z",
+                    "rating": "4.0",
+                    "reviewer_name": "Prem krishnan",
+                    "trip_reason": "leisure",
+                    "travel_companion": "family",
+                    "text": "Clean and well maintained. Good for family with kids. "
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "title": "Vacation",
+                    "date_submitted": "2022-03-16T02:04:13Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Keith",
+                    "text": "Clean hotel although breakfast was a bit spotty\n"
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "date_submitted": "2022-03-13T15:48:01Z",
+                    "rating": "2.0",
+                    "reviewer_name": "Jocelyen",
+                    "text": "The hotel was out of hand soap for guest rooms. The breakfast was "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-03-13T12:09:59Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Lillian",
+                    "trip_reason": "leisure",
+                    "travel_companion": "partner",
+                    "text": "Great stay especially after a week camping in the Everglades. "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-02-28T13:18:17Z",
+                    "rating": "4.0",
+                    "reviewer_name": "Jodi",
+                    "trip_reason": "leisure",
+                    "travel_companion": "friends",
+                    "text": "Great location across from many great shops & restaurants "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-02-23T12:43:29Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Amanda",
+                    "trip_reason": "business",
+                    "text": "I like how the staff is very accommodating! "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-02-21T14:40:58Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Luis",
+                    "trip_reason": "leisure",
+                    "travel_companion": "family",
+                    "text": "Nice place, very clean and quiet. "
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-02-20T19:50:58Z",
+                    "rating": "4.0",
+                    "reviewer_name": "Sonya",
+                    "trip_reason": "business",
+                    "text": "Loved everything, the only thing I didn't like was I reserved a King size bed and made my reservation well over a week before my visit and when I checked into my room, it had 2 doubles.  When I called down, they told me there weren't any more available.\n"
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "title": "Great room - clean ,very friendly staff ",
+                    "date_submitted": "2022-05-16T10:11:49Z",
+                    "rating": "5.0",
+                    "reviewer_name": "julie"
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "date_submitted": "2022-04-17T15:35:59Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Dominic"
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-04-09T11:49:51Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Xiao-Chun"
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "date_submitted": "2022-04-04T18:45:02Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Kevin"
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "date_submitted": "2022-03-19T16:36:15Z",
+                    "rating": "5.0",
+                    "reviewer_name": "Sarah"
+                },
+                {
+                    "verification_source": "Expedia Group verified review",
+                    "date_submitted": "2022-03-10T18:11:12Z",
+                    "rating": "5.0",
+                    "reviewer_name": "RACHID",
+                    "trip_reason": "leisure",
+                    "travel_companion": "family",
+                    "text": "Excellent!"
+                },
+                {
+                    "verification_source": "Hotels.com verified review",
+                    "date_submitted": "2022-03-10T12:42:22Z",
+                    "rating": "4.0",
+                    "reviewer_name": "randy"
+                }
+            ]
+        }
+    },
+    "response": {
+        "code": 200,
+        "message": "OK"
+    },
+    "cookies": [],
+    "filename": null,
+    "http_response": {
+        "data": null,
+        "headers": null,
+        "status": null
+    }
+}
